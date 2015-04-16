@@ -1,0 +1,32 @@
+
+# WordPress system
+# ignore WordPress default files
+htdocs/index.php
+htdocs/license.txt
+htdocs/readme.html
+htdocs/wp-activate.php
+htdocs/wp-admin
+htdocs/wp-blog-header.php
+htdocs/wp-comments-post.php
+htdocs/wp-config-sample.php
+htdocs/wp-config.php
+htdocs/wp-cron.php
+htdocs/wp-includes
+htdocs/wp-links-opml.php
+htdocs/wp-load.php
+htdocs/wp-login.php
+htdocs/wp-mail.php
+htdocs/wp-settings.php
+htdocs/wp-signup.php
+htdocs/wp-trackback.php
+htdocs/xmlrpc.php
+
+# WordPress content
+# ignore files except for relevant theme files
+htdocs/wp-content/index.php
+htdocs/wp-content/plugins
+htdocs/wp-content/themes/index.php
+htdocs/wp-content/themes/twentyfifteen
+htdocs/wp-content/themes/twentyfourteen
+htdocs/wp-content/themes/twentythirteen
+

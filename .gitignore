@@ -33,3 +33,6 @@ htdocs/wp-content/themes/twentythirteen
 # ignore default JEO theme
 htdocs/wp-content/themes/jeo-dev
 
+# development shortcuts
+# symlink to theme files
+jeo-newsroom

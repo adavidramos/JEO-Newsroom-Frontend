@@ -22,6 +22,10 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico" type="image/x-icon" />
 <?php wp_head(); ?>
+
+<!-- externally compiled CSS -->
+<link rel="stylesheet" type="text/css" href="/static/assets/css/main.css" />
+
 </head>
 <body <?php body_class(get_bloginfo('language')); ?>>
 	<header id="masthead">

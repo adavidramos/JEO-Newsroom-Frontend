@@ -30,3 +30,5 @@ htdocs/wp-content/themes/twentyfifteen
 htdocs/wp-content/themes/twentyfourteen
 htdocs/wp-content/themes/twentythirteen
 
+# ignore default JEO theme
+htdocs/wp-content/themes/jeo-dev

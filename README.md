@@ -2,6 +2,8 @@
 
 A news-forward child theme of JEO, built for the [Earth Journalism Network](http://earthjournalism.net/).
 
+### Contacts
+
 [David Ramos](http://imaginaryterrain.com/)
 
 ## Project layout

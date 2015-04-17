@@ -2,6 +2,8 @@
 
 A news-forward child theme for [JEO](http://oeco.github.io/jeo/), built for the [Earth Journalism Network](http://earthjournalism.net/).
 
+This project is under early, active development and is not ready for use.
+
 ## Project layout
 
 - `gulp/` _Frontend build config_

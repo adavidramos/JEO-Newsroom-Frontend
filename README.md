@@ -1,10 +1,6 @@
 # JEO Newsroom
 
-A news-forward child theme of JEO, built for the [Earth Journalism Network](http://earthjournalism.net/).
-
-### Contacts
-
-[David Ramos](http://imaginaryterrain.com/)
+A news-forward child theme for [JEO](http://oeco.github.io/jeo/), built for the [Earth Journalism Network](http://earthjournalism.net/).
 
 ## Project layout
 
@@ -32,5 +28,24 @@ Theme styles are written in SASS, compiled to CSS, and minified for production. 
 The Gulp tools use node-sass, which doesn’t support:
 - Compass
 - Suffix selectors, i.e. for BEM notation
+
+## License
+
+JEO Newsroom is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+JEO Newsroom is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with JEO Newsroom.  If not, see <http://www.gnu.org/licenses/>.
+
+## Contacts and contributors
+
+[David Ramos](http://imaginaryterrain.com/)
 
 

@@ -8,7 +8,8 @@ A news-forward child theme of JEO, built for the [Earth Journalism Network](http
 
 - `gulp/` _Frontend build config_
 - `gulpfile.js` _Frontend build script_
-- `htdocs/` _Basic WordPress installation; deploy on web server_
+- `htdocs/` _Basic WordPress environment; deploy on web server_
+	- _Install WordPress files here_
 	- `static/` _Static files (CSS, JavaScript, images, and fonts), output from 	Gulp_
 	- `wp-content/`
 		- `themes/`

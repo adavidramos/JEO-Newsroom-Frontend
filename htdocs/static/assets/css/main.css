@@ -428,7 +428,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin: 1em 0 0.5em 0;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 3.5em;
   line-height: 1em;
   font-weight: normal;
@@ -437,6 +436,7 @@ h1 {
 h2 {
   margin-top: 2.5em;
   margin-bottom: 1.5em;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.25em;
   font-weight: bold;
@@ -453,7 +453,6 @@ h2 {
 h3 {
   margin-top: 2em;
   margin-bottom: 1em;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   line-height: 1.5em;
   font-weight: bold;
@@ -465,11 +464,10 @@ h4 {
   margin-bottom: 0.5em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.5em;
-  font-weight: normal;
-  font-weight: 400;
-  letter-spacing: 0.07em;
-  text-transform: uppercase; }
+  font-weight: bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.055em; }
 
 h5 {
   margin-top: 1.5em;
@@ -498,12 +496,12 @@ h6 {
 
 .kicker {
   margin: 2.5em 0 1.5em 0;
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.055em;
   text-align: left; }
 
 .kicker + h1 {

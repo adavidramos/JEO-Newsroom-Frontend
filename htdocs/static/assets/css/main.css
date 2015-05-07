@@ -405,7 +405,7 @@ html, button, input, select, textarea {
 
 body {
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
   color: #333333;
   font-weight: 400;
@@ -508,7 +508,9 @@ h6 {
   margin-top: 0; }
 
 p, ul, ol, blockquote {
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  line-height: 1.5em; }
 
 blockquote {
   padding: 0 3em 0 2em;
@@ -540,7 +542,7 @@ strong {
     font-weight: 700; }
 
 .global-header {
-  max-width: 960px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2em;
@@ -558,7 +560,7 @@ strong {
   .nameplate:last-child {
     margin-right: 0; }
   .nameplate h1 {
-    margin: 0;
+    margin: 0.1em 0 0 0;
     font-size: 2em; }
     .nameplate h1 a {
       background: none;
@@ -574,7 +576,9 @@ strong {
     margin-right: 0; }
 
 .global-nav {
-  text-align: right; }
+  text-align: right;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.05em; }
   .global-nav ul {
     padding: 0.6em 0 0 0; }
     .global-nav ul li {
@@ -583,7 +587,7 @@ strong {
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
-      margin-left: 6px; }
+      margin-left: 18px; }
       .global-nav ul li a {
         background: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -619,7 +623,7 @@ strong {
     transition: all 0.5s; }
 
 .global-footer {
-  max-width: 960px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em; }
@@ -667,7 +671,7 @@ img {
   height: auto; }
 
 .main {
-  max-width: 960px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto; }
   .main:after {
@@ -675,7 +679,7 @@ img {
     display: table;
     clear: both; }
   .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p, .main ul, .main ol, .main blockquote {
-    max-width: 960px; }
+    max-width: 1080px; }
 
 /* ==========================================================================
    Print styles from H5BP

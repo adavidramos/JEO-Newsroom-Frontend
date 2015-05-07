@@ -406,7 +406,7 @@ html, button, input, select, textarea {
 body {
   font-size: 16px;
   line-height: 1.6em;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
   color: #333333;
   font-weight: 400;
   text-align: left; }
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin: 1em 0 0.5em 0;
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 3.5em;
   line-height: 1em;
   font-weight: normal;
@@ -453,7 +453,7 @@ h2 {
 h3 {
   margin-top: 2em;
   margin-bottom: 1em;
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   line-height: 1.5em;
   font-weight: bold;
@@ -463,7 +463,7 @@ h3 {
 h4 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   font-weight: normal;
@@ -474,7 +474,7 @@ h4 {
 h5 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   line-height: 1.5em;
   font-style: italic;
@@ -498,7 +498,7 @@ h6 {
 
 .kicker {
   margin: 2.5em 0 1.5em 0;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
   font-size: 1em;
   font-weight: bold;
   font-weight: 700;
@@ -535,51 +535,11 @@ strong {
   padding: 1em 0 0 0;
   border-top: 12px solid #333333; }
   .pullquote p {
-    font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     line-height: 1.125em;
     font-weight: bold;
     font-weight: 700; }
-
-.layout-type-sample h1 {
-  font-size: 2.5em; }
-.layout-type-sample section {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #ddd; }
-
-.group-source-crimson h1 {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-.group-source-crimson h5 {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-weight: 700; }
-.group-source-crimson p {
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif; }
-
-.group-crimson-crimson p {
-  font-family: 'Crimson Text', 'Hoefler Text', 'Times New Roman', Times, serif; }
-
-.group-newscycle-goudy h5 {
-  font-family: 'News Cycle', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em; }
-.group-newscycle-goudy p {
-  font-family: 'Sorts Mill Goudy', 'Times New Roman', Times, serif; }
-
-.group-goudy-source h5 {
-  font-family: 'Source Sans Pro', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em; }
-.group-goudy-source p {
-  font-family: 'Sorts Mill Goudy', 'Times New Roman', Times, serif; }
 
 .global-header {
   max-width: 960px;

@@ -435,45 +435,43 @@ h1 {
 
 h2 {
   margin-top: 2.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   line-height: 1.25em;
   font-weight: bold;
-  font-weight: 700;
-  text-align: center; }
-  h2:after {
+  font-weight: 700; }
+  h2:before {
     content: "";
     display: block;
-    height: 1px;
-    width: 60%;
-    margin: 0.5em auto 0 auto;
-    background: #333333; }
+    height: 5px;
+    width: 25%;
+    margin: 0 auto 0.35em 0;
+    background: #e2e1dd; }
 
 h3 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-size: 1.125em;
-  line-height: 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
   font-weight: bold;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
   text-align: center; }
 
 h4 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
+  line-height: 1.5em;
   font-weight: bold;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.055em; }
+  text-align: center; }
 
 h5 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.125em;
   line-height: 1.5em;
   font-style: italic;
   font-weight: normal;
@@ -483,7 +481,6 @@ h6 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   line-height: 1.5em;
-  font-style: italic;
   font-weight: normal;
   font-weight: 400; }
 
@@ -491,7 +488,7 @@ h6 {
   margin-top: -0.5em;
   margin-bottom: 1.125em;
   text-align: left; }
-  .subhead:after {
+  .subhead:before {
     display: none; }
 
 .kicker {

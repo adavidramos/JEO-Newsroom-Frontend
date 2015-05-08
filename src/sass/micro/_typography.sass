@@ -54,48 +54,46 @@ h1
 	
 h2
 	margin-top: 2.5em
-	margin-bottom: 1.5em
+	margin-bottom: 1.25em
 	font-family: $font-family-contrast
 	font-size: 1.25em
 	line-height: 1.25em
 	font-weight: bold
 	font-weight: 700
-	text-align: center
-	&:after
+	&:before
 		content:""
 		display: block
-		height: 1px
-		width: 60%
-		margin: 0.5em auto 0 auto
-		background: $cT 
+		height: 5px
+		width: 25%
+		margin: 0 auto 0.35em 0
+		background: $cN-light
 		// position: absolute
 		// bottom: 0
 		// left: 0
 
 h3
-	margin-top: 2.0em
-	margin-bottom: 1.0em
-	font-size: 1.125em
-	line-height: 1.5em
+	margin-top: 2.5em
+	margin-bottom: 0.5em
+	font-family: $font-family-contrast
+	font-size: 0.9em
 	font-weight: bold
 	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 0.055em
 	text-align: center
 	
 h4
 	margin-top: 1.5em
 	margin-bottom: 0.5em
-	font-family: $font-family-contrast
-	font-size: 1em
+	font-size: 1.0em
+	line-height: 1.5em
 	font-weight: bold
 	font-weight: 700
-	text-transform: uppercase
-	letter-spacing: 0.055em
+	text-align: center
 
 h5
 	margin-top: 1.5em
 	margin-bottom: 0.5em
-	font-family: $font-family-contrast
-	font-size: 1.125em
 	line-height: 1.5em
 	font-style: italic
 	font-weight: normal
@@ -105,7 +103,6 @@ h6
 	margin-top: 1.5em
 	margin-bottom: 0.5em
 	line-height: 1.5em
-	font-style: italic
 	font-weight: normal
 	font-weight: 400
 
@@ -114,7 +111,7 @@ h6
 	margin-top: -0.5em
 	margin-bottom: 1.125em
 	text-align: left
-	&:after
+	&:before
 		display: none
 
 // h3 as kicker

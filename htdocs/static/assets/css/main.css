@@ -492,14 +492,15 @@ h6 {
     display: none; }
 
 .kicker {
-  margin: 2.5em 0 1.5em 0;
+  margin: 0em 0 0.5em 0;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.055em;
-  text-align: left; }
+  text-align: left;
+  color: #e73300; }
 
 .kicker + h1 {
   margin-top: 0; }
@@ -535,6 +536,61 @@ strong {
     line-height: 1.125em;
     font-weight: bold;
     font-weight: 700; }
+
+.btn-action, .btn-alt, .btn-alt:visited, .btn-light, .global-nav ul li .nav-button, .btn-light:visited, .btn-subdued, .btn-subdued:visited, .btn-subdued-light, .btn-subdued-light:visited, .btn-disabled, .btn-disabled:visited, .btn-action:visited, .btn-alt:visited, .btn-light:visited, .global-nav ul li .nav-button:visited, .btn-subdued:visited, .btn-subdued-light:visited, .btn-disabled:visited {
+  padding: 0.5em 1em;
+  background: #008fa9;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1em;
+  transition: all 0.5s; }
+  .btn-action:hover, .btn-alt:hover, .btn-light:hover, .global-nav ul li .nav-button:hover, .btn-subdued:hover, .btn-subdued-light:hover, .btn-disabled:hover, .btn-action:visited:hover, .btn-alt:visited:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover, .btn-subdued:visited:hover, .btn-subdued-light:visited:hover, .btn-disabled:visited:hover {
+    background-color: #0B596C;
+    color: #fff;
+    border: none; }
+
+.btn-alt, .btn-alt:visited {
+  background: #e73300; }
+  .btn-alt:hover, .btn-alt:visited:hover {
+    background-color: #901502; }
+
+.btn-light, .global-nav ul li .nav-button, .btn-light:visited, .global-nav ul li .nav-button:visited {
+  background: #DEE2D9;
+  color: #777777; }
+  .btn-light:hover, .global-nav ul li .nav-button:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover {
+    background-color: #e73300; }
+
+.btn-subdued, .btn-subdued:visited {
+  background: #525048; }
+  .btn-subdued:hover, .btn-subdued:visited:hover {
+    background-color: #333333; }
+
+.btn-subdued-light, .btn-subdued-light:visited {
+  background: #9f9c8e; }
+  .btn-subdued-light:hover, .btn-subdued-light:visited:hover {
+    background-color: #525048; }
+
+.btn-disabled, .btn-disabled:visited {
+  background: #DEE2D9;
+  color: #aaaaaa; }
+  .btn-disabled:hover, .btn-disabled:visited:hover {
+    background-color: #DEE2D9;
+    color: #aaaaaa; }
+
+.btn-inline {
+  display: inline-block; }
+
+.btn-icon {
+  display: inline-block; }
+  .btn-icon > i {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    position: absolute;
+    left: -9000; }
 
 .global-header {
   max-width: 1080px;
@@ -592,6 +648,11 @@ strong {
           color: #e73300;
           border-bottom: 1px solid #e73300;
           transition: all 0.5s; }
+      .global-nav ul li .nav-button {
+        position: relative;
+        top: -2px;
+        padding: 3px 6px;
+        font-size: 0.6em; }
 
 .footer-nav ul {
   padding: 0; }
@@ -657,6 +718,16 @@ strong {
     border: none;
     color: inherit; }
 
+.featured {
+  border-top: 1px solid #e2e1dd;
+  border-bottom: 1px solid #e2e1dd;
+  background: #f9fcf5;
+  width: 100%;
+  height: 4em; }
+  .featured p {
+    color: #9f9c8e;
+    font-size: 0.8em; }
+
 #skip {
   position: absolute;
   left: -9000px; }
@@ -673,18 +744,19 @@ img {
     content: "";
     display: table;
     clear: both; }
-  .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p, .main ul, .main ol, .main blockquote {
-    max-width: 1080px; }
 
-.story-body p, .story-body ul, .story-body ol, .story-body h2, .story-body h3, .story-body h4, .story-body h5, .story-body h6 {
+.story__hd {
+  margin: 3em 0 0 0; }
+
+.story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
   max-width: 680px;
   margin-left: 20%;
   margin-right: 5%; }
-.story-body aside p {
+.story__bd aside p {
   margin-left: 0;
   margin-right: 0; }
 
-.story-big-image {
+.story__big-image {
   margin: 2em 0 2em 0; }
 
 /* ==========================================================================

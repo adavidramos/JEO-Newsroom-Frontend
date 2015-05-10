@@ -1,6 +1,6 @@
 # JEO Newsroom
 
-A news-forward child theme for [JEO](http://oeco.github.io/jeo/), built for the [Earth Journalism Network](http://earthjournalism.net/).
+HTML, CSS, and JavaScript development for a news-forward child theme for [JEO](http://oeco.github.io/jeo/), built for the [Earth Journalism Network](http://earthjournalism.net/).
 
 This project is under early, active development and is not ready for use.
 
@@ -8,18 +8,14 @@ This project is under early, active development and is not ready for use.
 
 - `gulp/` _Frontend build config_
 - `gulpfile.js` _Frontend build script_
-- `htdocs/` _Basic WordPress environment; deploy on web server_
-	- _Install WordPress files here_
+- `htdocs/` _Files for web server root_
 	- `static/` _Static files (CSS, JavaScript, images, and fonts), output from 	Gulp_
-	- `wp-content/`
-		- `themes/`
-			- `jeo-newsroom/` _WordPress theme files_
 - `node_modules/` _Gulp build support, not under version control_
 - `package.json` _Node.js packages for gulp_
 - `README.md`
 - `src/` _HTML, SASS, JavaScript, and images (processed through Gulp)_
 
-Compiled CSS and JavaScript files are at `htdocs/static/`, *not* in the WordPress theme folder.
+Compiled CSS and JavaScript files are at `htdocs/static/`.
 
 ## Frontend development tooling
 

@@ -537,7 +537,7 @@ strong {
     font-weight: bold;
     font-weight: 700; }
 
-.btn-action, .btn-alt, .btn-alt:visited, .btn-light, .global-nav ul li .nav-button, .btn-light:visited, .btn-subdued, .btn-subdued:visited, .btn-subdued-light, .btn-subdued-light:visited, .btn-disabled, .btn-disabled:visited, .btn-action:visited, .btn-alt:visited, .btn-light:visited, .global-nav ul li .nav-button:visited, .btn-subdued:visited, .btn-subdued-light:visited, .btn-disabled:visited {
+.btn-action, .btn-alt, .btn-alt:visited, .btn-light, .global-nav ul li .nav-button, .sc-container h2 b, .btn-light:visited, .sc-container h2 b:visited, .btn-subdued, .btn-subdued:visited, .btn-subdued-light, .btn-subdued-light:visited, .btn-disabled, .btn-disabled:visited, .btn-action:visited, .btn-alt:visited, .btn-light:visited, .global-nav ul li .nav-button:visited, .sc-container h2 b:visited, .btn-subdued:visited, .btn-subdued-light:visited, .btn-disabled:visited {
   padding: 0.5em 1em;
   background: #008fa9;
   border: none;
@@ -547,7 +547,7 @@ strong {
   font-weight: bold;
   line-height: 1em;
   transition: all 0.5s; }
-  .btn-action:hover, .btn-alt:hover, .btn-light:hover, .global-nav ul li .nav-button:hover, .btn-subdued:hover, .btn-subdued-light:hover, .btn-disabled:hover, .btn-action:visited:hover, .btn-alt:visited:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover, .btn-subdued:visited:hover, .btn-subdued-light:visited:hover, .btn-disabled:visited:hover {
+  .btn-action:hover, .btn-alt:hover, .btn-light:hover, .global-nav ul li .nav-button:hover, .sc-container h2 b:hover, .btn-subdued:hover, .btn-subdued-light:hover, .btn-disabled:hover, .btn-action:visited:hover, .btn-alt:visited:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover, .sc-container h2 b:visited:hover, .btn-subdued:visited:hover, .btn-subdued-light:visited:hover, .btn-disabled:visited:hover {
     background-color: #0B596C;
     color: #fff;
     border: none; }
@@ -557,10 +557,10 @@ strong {
   .btn-alt:hover, .btn-alt:visited:hover {
     background-color: #901502; }
 
-.btn-light, .global-nav ul li .nav-button, .btn-light:visited, .global-nav ul li .nav-button:visited {
+.btn-light, .global-nav ul li .nav-button, .sc-container h2 b, .btn-light:visited, .global-nav ul li .nav-button:visited, .sc-container h2 b:visited {
   background: #DEE2D9;
   color: #777777; }
-  .btn-light:hover, .global-nav ul li .nav-button:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover {
+  .btn-light:hover, .global-nav ul li .nav-button:hover, .sc-container h2 b:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover, .sc-container h2 b:visited:hover {
     background-color: #e73300; }
 
 .btn-subdued, .btn-subdued:visited {
@@ -607,12 +607,13 @@ strong {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 48.93617%; }
+  width: 100%; }
   .nameplate:last-child {
     margin-right: 0; }
   .nameplate h1 {
-    margin: 0.1em 0 0 0;
-    font-size: 2em; }
+    margin: 0.1em 0 0.35em 0;
+    text-align: center;
+    font-size: 3em; }
     .nameplate h1 a {
       background: none;
       border: none;
@@ -622,14 +623,12 @@ strong {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 48.93617%; }
-  .global-nav:last-child {
-    margin-right: 0; }
-
-.global-nav {
-  text-align: right;
+  width: 100%;
+  text-align: center;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.05em; }
+  .global-nav:last-child {
+    margin-right: 0; }
   .global-nav ul {
     padding: 0.6em 0 0 0; }
     .global-nav ul li {
@@ -704,19 +703,81 @@ strong {
   .footer-contact:last-child {
     margin-right: 0; }
 
-.portfolio-collection {
-  width: 100%; }
-
-.portfolio-preview {
-  width: 25%;
+.sc-container {
   float: left;
-  padding-right: 0.5em;
-  padding-bottom: 0.75em; }
-  .portfolio-preview a {
-    display: block;
-    background: none;
-    border: none;
-    color: inherit; }
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%;
+  margin: 2em 0 0 0;
+  padding: 0; }
+  .sc-container:last-child {
+    margin-right: 0; }
+  .sc-container h1, .sc-container h2, .sc-container h3, .sc-container h4, .sc-container h5, .sc-container h6 {
+    margin: 0 0 0 0;
+    text-align: left; }
+  .sc-container h2 {
+    margin: 0 0 0.5em 0;
+    padding: 0 0 0.25em 0;
+    border-bottom: 0.2em solid #e2e1dd; }
+    .sc-container h2 i {
+      display: inline-block;
+      margin: 0 0 0 0.25em;
+      font-size: 0.75em; }
+    .sc-container h2 b {
+      position: relative;
+      top: -0.15em;
+      left: 0.25em;
+      padding: 0.2em 0.4em;
+      font-size: 0.5em;
+      font-weight: normal; }
+    .sc-container h2 a {
+      background: none;
+      border: none;
+      color: inherit; }
+  .sc-container h2:before {
+    content: none;
+    border: none; }
+  .sc-container h4 {
+    margin: 0 0 0 0;
+    font-size: 0.85em;
+    line-height: 1.25em;
+    font-weight: normal; }
+  .sc-container p {
+    margin: 0 0 0 0;
+    font-size: 0.85em;
+    line-height: 1.25em; }
+  .sc-container .dateline {
+    margin: 0.25em 0 0 0;
+    font-size: 0.65em; }
+
+.sc-slice {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%;
+  padding: 0.25em 0 0 0; }
+  .sc-slice:last-child {
+    margin-right: 0; }
+
+.sc-story {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  margin-bottom: 0.5em;
+  height: 4em; }
+  .sc-story:last-child {
+    margin-right: 0; }
+  .sc-story:nth-child(4n) {
+    margin-right: 0; }
+
+.sc-story.size-small.style-image .sc-story__hd {
+  float: left;
+  width: 25%; }
+.sc-story.size-small.style-image .sc-story__bd {
+  float: left;
+  width: 75%;
+  padding-left: 0.5em; }
 
 .featured {
   border-top: 1px solid #e2e1dd;
@@ -750,14 +811,24 @@ img {
 
 .story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
   max-width: 680px;
-  margin-left: 20%;
-  margin-right: 5%; }
+  margin-left: 10%; }
 .story__bd aside p {
   margin-left: 0;
   margin-right: 0; }
 
 .story__big-image {
   margin: 2em 0 2em 0; }
+
+.story__meta {
+  margin-bottom: 2em; }
+  .story__meta .byline {
+    margin: 0 40% 0 10%;
+    padding-top: 0.25em;
+    border-top: 2px solid #9f9c8e; }
+  .story__meta .dateline {
+    margin: 0 40% 0 10%;
+    padding-top: 0.25em;
+    border-top: 2px solid #e2e1dd; }
 
 /* ==========================================================================
    Print styles from H5BP

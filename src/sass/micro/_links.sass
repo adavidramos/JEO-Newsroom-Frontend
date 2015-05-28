@@ -54,4 +54,15 @@ a img
 		@include basic-transition
 .hover-link
 	+hover-link
+
+@mixin hover-noborder-link
+	background: none
+	border-bottom: none
+	color: inherit
+	@include basic-transition
+	&:hover
+		color: $c-link
+		@include basic-transition
+.hover-noborder-link
+	+hover-noborder-link
 	

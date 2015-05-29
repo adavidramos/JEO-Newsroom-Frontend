@@ -38,7 +38,7 @@
 
 .sc-slice
 	+span-columns(12)
-	padding: 0.25em 0 0 0
+	padding: 0 0 0 0
 
 	// typography for story containers
 	h1, h2, h3, h4, h5, h6, p
@@ -46,15 +46,26 @@
 		text-align: left
 
 	h4
-		margin: 0 0 0 0
+		margin: 0 0 0.25em 0
 		line-height: 1.125em
 		font-weight: normal
 
 	p
 		font-size: 0.65em
 		line-height: 1.125em
-
+		
 .sc-story
+
+	// link within story container
+	a
+		color: inherit
+		h4, p, b, i, span
+			@include fast-transition
+	a:hover 
+		color: inherit
+		h4, p, b, i, span
+			@include fast-transition
+			color: $cA
 
 .sc-story__hd
 	
@@ -75,9 +86,8 @@
 	.dateline
 		margin: 0.25em 0 0 0
 
-// medium, with image
-.size-md
-	.style-image
+	// medium, with image
+	.option-image
 		.sc-story__hd
 			float: left
 			width: 25%
@@ -88,12 +98,19 @@
 
 // large
 .size-lg
+	margin-bottom: 2em
+	background: $cN-xxlight
 	.sc-story
-		+span-columns(12)
-		margin: 0 0 0 0
-		padding: 1em 0 1em 1em
+		float: left
+		width: 50% // not using Neat grid
+		margin-right: 0
+		height: 9em
 		border-bottom: 1px solid $cN-light
-		background: $cN-xxlight
+		border-right: 1px solid $cN-light
+		&:nth-child(2n)
+			border-right: none
+	.sc-story__bd
+		padding: 1em 0 0 1em
 	h4
 		display: inline-block
 		margin: 0em 0 0 0
@@ -102,19 +119,20 @@
 		display: inline-block
 		margin: 0 0 0 0.5em
 	.kicker
-		margin: 0.125em 0.5em 0 0
+		margin: 1.5em 0.5em 0 0
 		position: relative
 		top: -0.25em
 
-// large, with image
-.size-lg
-	.style-image
+	// large, with image
+	.option-image
 		.sc-story__hd
 			float: left
-			width: 70px
+			width: 33.333%
+			padding: 1em 0 0 1em
 		.sc-story__bd
 			float: left
-			padding-left: 0.5em
+			width: 66.667%
+			padding-top: 0.125em 
 
 // extra large
 .size-xl
@@ -183,6 +201,10 @@
 		font-size: 0.8em
 	.dateline
 		font-size: 0.85em
+
+
+
+// special cases ----------------------------------------
 
 // feature well
 .format-feature-well

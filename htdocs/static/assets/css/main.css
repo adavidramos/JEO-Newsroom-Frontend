@@ -509,7 +509,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 0.055em;
   text-align: left;
-  color: #e73300; }
+  color: #008fa9; }
 
 .kicker + h1 {
   margin-top: 0; }
@@ -776,28 +776,58 @@ strong {
     font-size: 0.65em;
     line-height: 1.125em; }
 
-.size-sm .sc-story {
+.size-md .sc-story {
   float: left;
   display: block;
   margin-right: 2.12766%;
   width: 23.40426%;
   margin-bottom: 0.5em;
   height: 4em; }
-  .size-sm .sc-story:last-child {
+  .size-md .sc-story:last-child {
     margin-right: 0; }
-  .size-sm .sc-story:nth-child(4n) {
+  .size-md .sc-story:nth-child(4n) {
     margin-right: 0; }
-.size-sm h4 {
+.size-md h4 {
   font-size: 0.9em; }
-.size-sm .dateline {
+.size-md .dateline {
   margin: 0.25em 0 0 0; }
 
-.size-sm .style-image .sc-story__hd {
+.size-md .style-image .sc-story__hd {
   float: left;
   width: 25%; }
-.size-sm .style-image .sc-story__bd {
+.size-md .style-image .sc-story__bd {
   float: left;
   width: 75%;
+  padding-left: 0.5em; }
+
+.size-lg .sc-story {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 1em 0 1em 1em;
+  border-bottom: 1px solid #e2e1dd;
+  background: #f9fcf5; }
+  .size-lg .sc-story:last-child {
+    margin-right: 0; }
+.size-lg h4 {
+  display: inline-block;
+  margin: 0em 0 0 0;
+  font-size: 1.25em; }
+.size-lg .dateline {
+  display: inline-block;
+  margin: 0 0 0 0.5em; }
+.size-lg .kicker {
+  margin: 0.125em 0.5em 0 0;
+  position: relative;
+  top: -0.25em; }
+
+.size-lg .style-image .sc-story__hd {
+  float: left;
+  width: 70px; }
+.size-lg .style-image .sc-story__bd {
+  float: left;
   padding-left: 0.5em; }
 
 .size-xl .sc-story {
@@ -824,25 +854,48 @@ strong {
   position: relative;
   top: -0.25em; }
 
-.size-xs .sc-story {
-  width: 100%;
-  padding: 0.125em 0 0.125em 0;
-  clear: both; }
-  .size-xs .sc-story:nth-child(2n+1) {
-    background: #f9fcf5; }
-.size-xs h4 {
-  display: inline-block;
-  font-size: 0.88em;
-  line-height: 1.2em;
-  margin: 0; }
-.size-xs .kicker {
-  display: inline-block; }
-.size-xs p {
-  display: inline-block;
-  line-height: 1em; }
-.size-xs .dateline {
-  display: inline-block;
-  margin: 0; }
+.size-sm {
+  padding-bottom: 1em; }
+  .size-sm .sc-story {
+    width: 100%;
+    padding: 0.125em 0 0.125em 0;
+    clear: both; }
+    .size-sm .sc-story:nth-child(2n+1) {
+      background: #f9fcf5; }
+  .size-sm h4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 0.25em;
+    font-size: 0.88em;
+    line-height: 1.2em; }
+  .size-sm .kicker {
+    font-size: 0.8em; }
+  .size-sm .dateline {
+    font-size: 0.65em; }
+
+.size-xs {
+  padding-bottom: 1em; }
+  .size-xs .sc-story {
+    width: 100%;
+    margin: 0;
+    padding: 0.125em 0 0.125em 0.125em;
+    clear: both; }
+    .size-xs .sc-story:nth-child(2n+1) {
+      background: #f9fcf5; }
+  .size-xs h4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    line-height: 1em; }
+  .size-xs .kicker {
+    font-size: 0.8em; }
+  .size-xs .dateline {
+    font-size: 0.85em; }
+
+.format-feature-well .sc-story {
+  border-bottom: none;
+  background: #f9fcf5; }
 
 .featured {
   border-top: 1px solid #e2e1dd;
@@ -899,9 +952,42 @@ img {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 48.93617%; }
+  width: 31.91489%;
+  margin-right: 0; }
   #recent:last-child {
     margin-right: 0; }
+
+#lede-stories-narrow {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 65.95745%; }
+  #lede-stories-narrow:last-child {
+    margin-right: 0; }
+
+#most-read {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%; }
+  #most-read:last-child {
+    margin-right: 0; }
+
+#subscribe {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  margin-top: 0.25em;
+  padding: 0.5em;
+  height: 17em;
+  background-color: #88DBEA; }
+  #subscribe:last-child {
+    margin-right: 0; }
+  #subscribe h3 {
+    margin-top: 0;
+    text-align: left;
+    color: #008fa9; }
 
 /* ==========================================================================
    Print styles from H5BP

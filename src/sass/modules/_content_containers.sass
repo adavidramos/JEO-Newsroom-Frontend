@@ -63,7 +63,7 @@
 // sizes and formats ---------------------------------------
 
 // medium
-.size-sm
+.size-md
 	.sc-story
 		+span-columns(3)
 		margin-bottom: 0.5em
@@ -75,8 +75,8 @@
 	.dateline
 		margin: 0.25em 0 0 0
 
-// small, with image
-.size-sm
+// medium, with image
+.size-md
 	.style-image
 		.sc-story__hd
 			float: left
@@ -87,6 +87,36 @@
 			padding-left: 0.5em
 
 // large
+.size-lg
+	.sc-story
+		+span-columns(12)
+		margin: 0 0 0 0
+		padding: 1em 0 1em 1em
+		border-bottom: 1px solid $cN-light
+		background: $cN-xxlight
+	h4
+		display: inline-block
+		margin: 0em 0 0 0
+		font-size: 1.250em
+	.dateline
+		display: inline-block
+		margin: 0 0 0 0.5em
+	.kicker
+		margin: 0.125em 0.5em 0 0
+		position: relative
+		top: -0.25em
+
+// large, with image
+.size-lg
+	.style-image
+		.sc-story__hd
+			float: left
+			width: 70px
+		.sc-story__bd
+			float: left
+			padding-left: 0.5em
+
+// extra large
 .size-xl
 	.sc-story
 		+span-columns(12)
@@ -109,7 +139,9 @@
 		top: -0.25em
 
 // small
-.size-xs
+// small stories have different markup structure
+.size-sm
+	padding-bottom: 1em
 	.sc-story
 		width: 100%
 		padding: 0.125em 0 0.125em 0
@@ -119,16 +151,42 @@
 	.sc-story__bd
 	h4
 		display: inline-block
+		margin: 0
+		padding: 0 0 0 0.25em
 		font-size: 0.88em
 		line-height: 1.2em
-		margin: 0
 	.kicker
-		display: inline-block
-	p
-		display: inline-block
-		line-height: 1em
+		font-size: 0.8em
 	.dateline
+		font-size: 0.65em
+
+// extra small
+// extra-small stories have different markup structure
+.size-xs
+	padding-bottom: 1em
+	.sc-story
+		width: 100%
+		margin: 0
+		padding: 0.125em 0 0.125em 0.125em
+		// padding: 0
+		clear: both
+		&:nth-child(2n+1)
+			background: $cN-xxlight
+	.sc-story__bd
+	h4
 		display: inline-block
 		margin: 0
+		padding: 0
+		font-size: 0.75em
+		line-height: 1em
+	.kicker
+		font-size: 0.8em
+	.dateline
+		font-size: 0.85em
 
-		
+// feature well
+.format-feature-well
+	.sc-story
+		border-bottom: none
+		background: $cN-xxlight
+	

@@ -359,10 +359,10 @@ html {
   box-sizing: border-box; }
 
 a {
-  color: #e73300;
+  color: #0a55b7;
   text-decoration: none;
   padding: 1px 0px;
-  border-bottom: 1px solid #ffd8ce;
+  border-bottom: 1px solid #accefa;
   transition: all 0.5s; }
 
 a:visited {
@@ -370,8 +370,8 @@ a:visited {
   border-color: #d9d9d9; }
 
 a:hover {
-  color: #e73300;
-  border-bottom: 1px solid #e73300; }
+  color: #0a55b7;
+  border-bottom: 1px solid #0a55b7; }
 
 a.noborder, a.noborder:hover {
   background: none;
@@ -384,11 +384,11 @@ a img {
   color: inherit; }
 
 .subdued-link {
-  color: #e73300;
+  color: #0a55b7;
   border: none; }
   .subdued-link:hover {
-    color: #e73300;
-    border-bottom: 1px solid #e73300; }
+    color: #0a55b7;
+    border-bottom: 1px solid #0a55b7; }
 
 .hover-link {
   background: none;
@@ -396,8 +396,8 @@ a img {
   color: inherit;
   transition: all 0.5s; }
   .hover-link:hover {
-    color: #e73300;
-    border-bottom: 1px solid #e73300;
+    color: #0a55b7;
+    border-bottom: 1px solid #0a55b7;
     transition: all 0.5s; }
 
 .hover-noborder-link {
@@ -406,7 +406,7 @@ a img {
   color: inherit;
   transition: all 0.5s; }
   .hover-noborder-link:hover {
-    color: #e73300;
+    color: #0a55b7;
     transition: all 0.5s; }
 
 html, button, input, select, textarea {
@@ -562,7 +562,7 @@ strong {
     border: none; }
 
 .btn-alt, .btn-alt:visited {
-  background: #e73300; }
+  background: #0a55b7; }
   .btn-alt:hover, .btn-alt:visited:hover {
     background-color: #901502; }
 
@@ -570,7 +570,7 @@ strong {
   background: #DEE2D9;
   color: #777777; }
   .btn-light:hover, .global-nav ul li .nav-button:hover, .btn-light:visited:hover, .global-nav ul li .nav-button:visited:hover {
-    background-color: #e73300; }
+    background-color: #0a55b7; }
 
 .btn-subdued, .btn-subdued:visited {
   background: #525048; }
@@ -653,8 +653,8 @@ strong {
         color: inherit;
         transition: all 0.5s; }
         .global-nav ul li a:hover {
-          color: #e73300;
-          border-bottom: 1px solid #e73300;
+          color: #0a55b7;
+          border-bottom: 1px solid #0a55b7;
           transition: all 0.5s; }
       .global-nav ul li .nav-button {
         position: relative;
@@ -682,8 +682,8 @@ strong {
   color: inherit;
   transition: all 0.5s; }
   .footer-nav a:hover {
-    color: #e73300;
-    border-bottom: 1px solid #e73300;
+    color: #0a55b7;
+    border-bottom: 1px solid #0a55b7;
     transition: all 0.5s; }
 
 .global-footer {
@@ -743,7 +743,7 @@ strong {
       color: inherit;
       transition: all 0.5s; }
       .sc-container h2 a:hover {
-        color: #e73300;
+        color: #0a55b7;
         transition: all 0.5s; }
   .sc-container h2:before {
     content: none;
@@ -784,7 +784,7 @@ strong {
   color: inherit; }
   .sc-story a:hover h4, .sc-story a:hover p, .sc-story a:hover b, .sc-story a:hover i, .sc-story a:hover span {
     transition: all 0.25s;
-    color: #e73300; }
+    color: #0a55b7; }
 
 .size-md .sc-story {
   float: left;

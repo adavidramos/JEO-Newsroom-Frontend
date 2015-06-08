@@ -4,7 +4,7 @@
 	+span-columns(12)
 	margin: 1em 0 0 0
 	padding: 0
-	
+
 	h2
 		margin: 0 0 0.5em 0
 		padding: 0 0 0.25em 0
@@ -26,7 +26,7 @@
 	h2:before
 		content: none
 		border: none
-		
+
 	h2.alt
 		font-size: 1em
 		font-family: $font-family-main
@@ -53,7 +53,7 @@
 	p
 		font-size: 0.65em
 		line-height: 1.125em
-		
+
 .sc-story
 
 	// link within story container
@@ -61,16 +61,16 @@
 		color: inherit
 		h4, p, b, i, span
 			@include fast-transition
-	a:hover 
+	a:hover
 		color: inherit
 		h4, p, b, i, span
 			@include fast-transition
 			color: $cA
 
 .sc-story__hd
-	
+
 .sc-story__bd
-	
+
 // sizes and formats ---------------------------------------
 
 // medium
@@ -132,7 +132,7 @@
 		.sc-story__bd
 			float: left
 			width: 66.667%
-			padding-top: 0.125em 
+			padding-top: 0.125em
 
 // extra large
 .size-xl
@@ -211,4 +211,20 @@
 	.sc-story
 		border-bottom: none
 		background: $cN-xxlight
-	
+
+// left part of three-column wide alternative stories layout
+#stories-left
+	+span-columns(9)
+	.size-md
+		.sc-story
+			+span-columns(4)
+			margin-bottom: 0.5em
+			height: 4em
+			&:nth-child(3n)
+				margin-right: 0
+
+// right part of three-column wide alternative stories layout
+#stories-right
+	+span-columns(3)
+	margin-right: 0
+	padding-top: 0.5em

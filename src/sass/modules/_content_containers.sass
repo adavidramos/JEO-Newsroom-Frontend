@@ -212,9 +212,26 @@
 		border-bottom: none
 		background: $cN-xxlight
 
-.format-color-a
+// background colors behind stories
+// can only be assigned to medium size stories
+
+.format-md-bg__story
+	padding: 0.75em 0.5em 1.0em 0.75em
+	height: 6em
+
+.format-md-bg-a
 	.sc-story
+		@extend .format-md-bg__story
 		background: $cA-xlight
+	.kicker
+		color: $cT
+
+.format-md-bg-e
+	.sc-story
+		@extend .format-md-bg__story
+		background: $cE-light
+	.kicker
+		color: $cT
 
 // left part of three-column wide alternative stories layout
 .stories-left
@@ -222,8 +239,6 @@
 	.size-md
 		.sc-story
 			+span-columns(4)
-			margin-bottom: 0.5em
-			height: 4em
 			&:nth-child(3n)
 				margin-right: 0
 

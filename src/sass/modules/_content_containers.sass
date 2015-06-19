@@ -82,6 +82,8 @@
 		overflow: clip
 		&:nth-child(4n)
 			margin-right: 0
+		+respond-to($mid-screen)
+			+span-columns(12)
 	h4
 		font-size: 1.1em
 	.dateline
@@ -112,6 +114,8 @@
 		border-right: 1px solid $cN-light
 		&:nth-child(2n)
 			border-right: none
+		+respond-to($mid-screen)
+			+span-columns(12)
 	.sc-story__bd
 		padding: 1em 0.5em 0 1em
 	h4
@@ -227,6 +231,8 @@
 		border-right: 2px solid #fff
 		&:nth-child(4n)
 			border-right: none
+		+respond-to($mid-screen)
+			+span-columns(12)
 
 .format-color-a
 	.sc-story
@@ -249,6 +255,8 @@
 		+span-columns(4)
 		&:nth-child(3n)
 			margin-right: 0
+		+respond-to($mid-screen)
+			+span-columns(12)
 
 // medium format stories with background colors, three wide
 .size-md.format-3col.format-md-bg
@@ -256,3 +264,5 @@
 		width: 33.333%
 		margin-right: 0
 		border-right: 2px solid #fff // make all borders white for simplicity
+		+respond-to($mid-screen)
+			+span-columns(12)

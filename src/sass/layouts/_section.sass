@@ -11,9 +11,13 @@
 
 #most-read
 	+span-columns(6)
+	+respond-to($mid-screen)
+		+span-columns(12)
 
 #subscribe
 	+span-columns(6)
+	+respond-to($mid-screen)
+		+span-columns(12)
 	margin-top: 0.25em
 	padding: 0.5em
 	height: 17em
@@ -37,9 +41,13 @@
 // left part of three-column wide alternative stories layout
 #stories-left
 	+span-columns(9)
+	+respond-to($mid-screen)
+		+span-columns(12)
 
 // right part of three-column wide alternative stories layout
 #stories-right
 	+span-columns(3)
 	margin-right: 0
 	padding-top: 0em
+	+respond-to($mid-screen)
+		+span-columns(12)

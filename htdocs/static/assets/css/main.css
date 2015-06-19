@@ -910,46 +910,41 @@ strong {
   border-bottom: none;
   background: #f9fcf5; }
 
-.format-md-bg__story, .format-md-bg-a .sc-story, .format-md-bg-e .sc-story {
-  padding: 0.75em 0.5em 1em 0.75em;
-  height: 6em; }
-
-.format-md-bg-a .sc-story {
-  background: #c6f7ff; }
-.format-md-bg-a .kicker {
-  color: #333333; }
-
-.format-md-bg-e .sc-story {
-  background: #71c29d; }
-.format-md-bg-e .kicker {
-  color: #333333; }
-
-.stories-left {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 74.46809%; }
-  .stories-left:last-child {
-    margin-right: 0; }
-  .stories-left .size-md .sc-story {
-    float: left;
-    display: block;
-    margin-right: 2.12766%;
-    width: 31.91489%; }
-    .stories-left .size-md .sc-story:last-child {
-      margin-right: 0; }
-    .stories-left .size-md .sc-story:nth-child(3n) {
-      margin-right: 0; }
-
-.stories-right {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 23.40426%;
+.format-md-bg .sc-story {
+  padding: 0.75em 0.75em 1em 0.75em;
+  height: 6em;
+  width: 25%;
   margin-right: 0;
-  padding-top: 0.5em; }
-  .stories-right:last-child {
+  border-right: 2px solid #fff; }
+  .format-md-bg .sc-story:nth-child(4n) {
+    border-right: none; }
+
+.format-color-a .sc-story {
+  background: #bae0e6;
+  border-color: #94cfd9; }
+.format-color-a .kicker {
+  color: #333333; }
+
+.format-color-e .sc-story {
+  background: #dcf0e7;
+  border-color: #fff; }
+.format-color-e .kicker {
+  color: #333333; }
+
+.size-md.format-3col .sc-story {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%; }
+  .size-md.format-3col .sc-story:last-child {
     margin-right: 0; }
+  .size-md.format-3col .sc-story:nth-child(3n) {
+    margin-right: 0; }
+
+.size-md.format-3col.format-md-bg .sc-story {
+  width: 33.333%;
+  margin-right: 0;
+  border-right: 2px solid #fff; }
 
 .featured {
   border-top: 1px solid #e2e1dd;
@@ -1033,6 +1028,24 @@ img {
     margin-top: 0;
     text-align: left;
     color: #214483; }
+
+#stories-left {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 74.46809%; }
+  #stories-left:last-child {
+    margin-right: 0; }
+
+#stories-right {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  margin-right: 0;
+  padding-top: 0.5em; }
+  #stories-right:last-child {
+    margin-right: 0; }
 
 /* ==========================================================================
    Print styles from H5BP

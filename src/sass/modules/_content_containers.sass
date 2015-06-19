@@ -212,38 +212,44 @@
 		border-bottom: none
 		background: $cN-xxlight
 
-// background colors behind stories
+// medium format stories with background colors
 // can only be assigned to medium size stories
 
-.format-md-bg__story
-	padding: 0.75em 0.5em 1.0em 0.75em
-	height: 6em
-
-.format-md-bg-a
+.format-md-bg
 	.sc-story
-		@extend .format-md-bg__story
-		background: $cA-xlight
+		padding: 0.75em 0.75em 1.0em 0.75em
+		height: 6em
+		width: 25%
+		margin-right: 0
+		border-right: 2px solid #fff
+		&:nth-child(4n)
+			border-right: none
+
+.format-color-a
+	.sc-story
+		background: lighten($cA-light,20%)
+		border-color: lighten($cA-light,10%)
 	.kicker
 		color: $cT
 
-.format-md-bg-e
+.format-color-e
 	.sc-story
-		@extend .format-md-bg__story
-		background: $cE-light
+		background: lighten($cE-light,30%)
+		border-color: #fff
 	.kicker
 		color: $cT
 
-// left part of three-column wide alternative stories layout
-.stories-left
-	+span-columns(9)
-	.size-md
-		.sc-story
-			+span-columns(4)
-			&:nth-child(3n)
-				margin-right: 0
+// three columns of stories rather than the usual four
+// needed on medium-format slices
+.size-md.format-3col
+	.sc-story
+		+span-columns(4)
+		&:nth-child(3n)
+			margin-right: 0
 
-// right part of three-column wide alternative stories layout
-.stories-right
-	+span-columns(3)
-	margin-right: 0
-	padding-top: 0.5em
+// medium format stories with background colors, three wide
+.size-md.format-3col.format-md-bg
+	.sc-story
+		width: 33.333%
+		margin-right: 0
+		border-right: 2px solid #fff // make all borders white for simplicity

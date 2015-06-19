@@ -146,14 +146,14 @@
 	.sc-story
 		+span-columns(12)
 		margin-bottom: 0.85em
-		padding-bottom: 0.2em
-		border-bottom: 1px solid $cN-light
+		padding: 1em 2em 2em 2em
+		background: $cN-xxlight
 	h4
 		display: inline-block
-		margin: 0.45em 0 0 0
+		margin: 0.5em 0 0 0
 		// padding-left: 0.125em
-		font-size: 1.25em
-		font-weight: bold
+		font-size: 1.4em
+		font-weight: normal
 	.dateline
 		display: inline-block
 		margin: 0 0 0 0.5em
@@ -162,6 +162,38 @@
 		margin: 0 0.5em 0 0.5em
 		position: relative
 		top: -0.25em
+	.sc-story__hd
+		padding: 1em 2em 1em 0
+		border-bottom: 1px solid rgba(0,0,0,0.30)
+		p
+			font-style: italic
+			font-size: 1.4em
+			color: $cT
+			color: rgba(0,0,0,0.40)
+			max-width: 18em
+
+	// with image
+	.option-image
+		padding: 0 0 0.25em 0
+		border-bottom: 1px solid $cN-light
+		.sc-story__hd
+			max-width: 100%
+			padding: 0
+			border: none
+		h4
+			display: inline-block
+			margin: 0.45em 0 0 0
+			// padding-left: 0.125em
+			font-size: 1.25em
+			font-weight: bold
+		.dateline
+			display: inline-block
+			margin: 0 0 0 0.5em
+		.kicker
+			display: inline-block
+			margin: 0 0.5em 0 0.5em
+			position: relative
+			top: -0.25em
 
 // small
 // small stories have different markup structure
@@ -212,12 +244,6 @@
 
 
 // special cases ----------------------------------------
-
-// feature well
-.format-feature-well
-	.sc-story
-		border-bottom: none
-		background: $cN-xxlight
 
 // medium format stories with background colors
 // can only be assigned to medium size stories

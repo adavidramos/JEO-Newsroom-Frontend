@@ -868,15 +868,15 @@ strong {
   margin-right: 2.12766%;
   width: 100%;
   margin-bottom: 0.85em;
-  padding-bottom: 0.2em;
-  border-bottom: 1px solid #e2e1dd; }
+  padding: 1em 2em 2em 2em;
+  background: #f9fcf5; }
   .size-xl .sc-story:last-child {
     margin-right: 0; }
 .size-xl h4 {
   display: inline-block;
-  margin: 0.45em 0 0 0;
-  font-size: 1.25em;
-  font-weight: bold; }
+  margin: 0.5em 0 0 0;
+  font-size: 1.4em;
+  font-weight: normal; }
 .size-xl .dateline {
   display: inline-block;
   margin: 0 0 0 0.5em; }
@@ -885,6 +885,35 @@ strong {
   margin: 0 0.5em 0 0.5em;
   position: relative;
   top: -0.25em; }
+.size-xl .sc-story__hd {
+  padding: 1em 2em 1em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+  .size-xl .sc-story__hd p {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #333333;
+    color: rgba(0, 0, 0, 0.4);
+    max-width: 18em; }
+.size-xl .option-image {
+  padding: 0 0 0.25em 0;
+  border-bottom: 1px solid #e2e1dd; }
+  .size-xl .option-image .sc-story__hd {
+    max-width: 100%;
+    padding: 0;
+    border: none; }
+  .size-xl .option-image h4 {
+    display: inline-block;
+    margin: 0.45em 0 0 0;
+    font-size: 1.25em;
+    font-weight: bold; }
+  .size-xl .option-image .dateline {
+    display: inline-block;
+    margin: 0 0 0 0.5em; }
+  .size-xl .option-image .kicker {
+    display: inline-block;
+    margin: 0 0.5em 0 0.5em;
+    position: relative;
+    top: -0.25em; }
 
 .size-sm {
   padding-bottom: 1em; }
@@ -924,10 +953,6 @@ strong {
     font-size: 0.8em; }
   .size-xs .dateline {
     font-size: 0.85em; }
-
-.format-feature-well .sc-story {
-  border-bottom: none;
-  background: #f9fcf5; }
 
 .format-md-bg .sc-story {
   padding: 0.75em 0.75em 1em 0.75em;

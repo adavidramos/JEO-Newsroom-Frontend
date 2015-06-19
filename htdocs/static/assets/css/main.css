@@ -825,11 +825,11 @@ strong {
     .size-lg .sc-story:nth-child(2n) {
       border-right: none; }
   .size-lg .sc-story__bd {
-    padding: 1em 0 0 1em; }
+    padding: 1em 0.5em 0 1em; }
   .size-lg h4 {
     display: inline-block;
     margin: 0em 0 0 0;
-    font-size: 1.25em; }
+    font-size: 1.4em; }
   .size-lg .dateline {
     display: inline-block;
     margin: 0 0 0 0.5em; }

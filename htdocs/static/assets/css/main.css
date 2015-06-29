@@ -1029,20 +1029,24 @@ code {
     font-size: 0.8em; }
 
 .documentation {
-  margin: 1em 0;
-  padding: 0.25em 1em 1em 1em;
-  background: #f3faff;
-  border-top: 3px solid #acdbff; }
+  clear: both;
+  padding: 4em 0 1em 0; }
   .documentation h1, .documentation h2, .documentation h3, .documentation h4, .documentation h5, .documentation h6, .documentation p, .documentation blockquote, .documentation li, .documentation a, .documentation a:visited {
-    color: #1399ff;
+    color: #fb2cff;
     text-align: left; }
   .documentation code {
     padding: 2px 4px;
-    background: #c5e6ff; }
+    background: #fedfff; }
+  .documentation h1 {
+    margin: 0.5em 0 0.125em 0; }
   .documentation h2 {
     margin: 1em 0 1em 0; }
   .documentation h3 {
-    margin: 0 0 0.5em 0; }
+    margin: 1em 0 0.5em 0; }
+  .documentation__bd {
+    padding: 0.25em 1em 1em 1em;
+    background: #ffeeff;
+    border-top: 3px solid #fec5ff; }
 
 .documentation h2:before {
   content: "";
@@ -1050,6 +1054,20 @@ code {
   height: 0;
   width: 0;
   margin: 0; }
+
+.documentation-wide {
+  width: 75%;
+  margin-right: 25%;
+  clear: both; }
+
+.documentation-narrow {
+  width: 25%;
+  margin-right: 75%;
+  clear: both;
+  margin-top: 10em; }
+
+.documentation-main {
+  padding-bottom: 5em; }
 
 #skip {
   position: absolute;

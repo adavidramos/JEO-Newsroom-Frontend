@@ -533,6 +533,10 @@ strong {
   font-weight: bold;
   font-weight: 700; }
 
+code {
+  font-size: 0.8em;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+
 .pullquote {
   float: left;
   width: 14em;
@@ -1023,6 +1027,29 @@ strong {
   .featured p {
     color: #9f9c8e;
     font-size: 0.8em; }
+
+.documentation {
+  margin: 1em 0;
+  padding: 0.25em 1em 1em 1em;
+  background: #f3faff;
+  border-top: 3px solid #acdbff; }
+  .documentation h1, .documentation h2, .documentation h3, .documentation h4, .documentation h5, .documentation h6, .documentation p, .documentation blockquote, .documentation li, .documentation a, .documentation a:visited {
+    color: #1399ff;
+    text-align: left; }
+  .documentation code {
+    padding: 2px 4px;
+    background: #c5e6ff; }
+  .documentation h2 {
+    margin: 1em 0 1em 0; }
+  .documentation h3 {
+    margin: 0 0 0.5em 0; }
+
+.documentation h2:before {
+  content: "";
+  display: none;
+  height: 0;
+  width: 0;
+  margin: 0; }
 
 #skip {
   position: absolute;

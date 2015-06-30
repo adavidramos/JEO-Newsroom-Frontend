@@ -621,7 +621,7 @@ code {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em; }
   .global-header:after {
     content: "";
@@ -635,11 +635,10 @@ code {
   width: 100%; }
   .nameplate:last-child {
     margin-right: 0; }
-  .nameplate h1 {
-    margin: 0.1em 0 0.35em 0;
-    text-align: center;
-    font-size: 3em; }
-    .nameplate h1 a {
+  .nameplate__bd {
+    margin: 0 auto 0.35em auto;
+    max-width: 509px; }
+    .nameplate__bd a, .nameplate__bd a:hover {
       background: none;
       border: none;
       color: inherit; }

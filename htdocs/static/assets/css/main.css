@@ -1263,7 +1263,8 @@ img {
   display: block;
   margin-right: 2.12766%;
   width: 48.93617%;
-  height: 700px; }
+  height: 700px;
+  margin-top: 3em; }
   .map-vertical:last-child {
     margin-right: 0; }
 
@@ -1275,6 +1276,15 @@ img {
   margin-left: 8.51064%;
   margin-top: 0; }
   .section-list:last-child {
+    margin-right: 0; }
+
+.section-list-vertical {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  margin-right: 0; }
+  .section-list-vertical:last-child {
     margin-right: 0; }
 
 .section-sidebar {

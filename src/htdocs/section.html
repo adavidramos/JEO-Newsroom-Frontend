@@ -1,25 +1,12 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="/static/assets/css/main.css" />
-	<script src="/static/assets/javascript/vendor/modernizr-2.8.3.min.js"></script>
-
-
+//= include ../includes/top.html
 
     <title></title>
     <meta name="description" content="">
 </head>
 <body>
 
+    <!-- container for head -->
 	<div class="container">
-
 		<header class="global-header">
 			<div class="nameplate" id="nameplate">
 				<h1><a href="index.html">The Mekong Eye</a></h1>
@@ -38,19 +25,23 @@
 				</ul>
 			</nav>
 		</header>
+    </div>
+    <!-- end container for head -->
+
+    <!-- placeholder map -->
+    <!-- remove style for production -->
+    <div class="map map-fill" style="background-position: 50% -560px;">
+        &nbsp;
+    </div>
+
+    <div class="container">
 
 		<div class="main">
 
     		<!-- anchor used by jump-to nav, needed for accessibility -->
     		<a name="content"></a>
 
-
-            <!-- example map -->
-            <div class="map map-vertical">
-                &nbsp;
-            </div>
-
-            <div class="section-list-vertical">
+            <div class="section-list">
 
                 <header class="section-header">
                     <h1>Environment</h1>
@@ -127,48 +118,93 @@
                 </div>
 
             </div>
-            <!-- end section list -->
+            <!-- end list -->
 
+            <!-- sidebar -->
+            <div class="section-sidebar">
+
+                <!-- begin story container -->
+    			<section class="sc-container">
+
+    				<h2 class="alt"><a href="#">Most Read <i>Further text here</i> <b>&raquo;</b></a></h2>
+
+    				<!-- begin slice -->
+    				<div class="sc-slice size-sm">
+
+    					<article class="sc-story ">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4>If there is no image, show only the text headine for the story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    					<article class="sc-story">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4>Small story hed goes here spot for story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    					<article class="sc-story">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4><b class="kicker">Kicker</b> Small story hed goes here spot for story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    					<article class="sc-story ">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4>If there is no image, show only the text headine for the story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    					<article class="sc-story">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4>Small story hed goes here spot for story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+
+    					<article class="sc-story">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4><b class="kicker">Opinion</b> Small story hed goes here spot for story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    					<article class="sc-story ">
+    						<a href="#">
+    							<div class="sc-story__bd">
+    								<h4>Small story hed goes here spot for story <i class="dateline">25 May 2015</i></h4>
+    							</div>
+    						</a>
+    					</article>
+
+    				</div>
+    				<!-- end slice -->
+
+    			</section>
+    			<!-- end story container -->
+
+            </div>
+            <!-- end sidebar -->
 
 		</div>
         <!-- end main -->
 
-		
-
-				<footer class="global-footer">
-
-					<nav class="footer-nav">
-
-						<ul>
-
-							<li><a href="/">home</a></li>
-
-							<li><a href="#nameplate">top of page</a></li>
-
-						</ul>
-
-					</nav>
-
-					<div class="footer-contact">
-
-						<p>
-
-						</p>
-
-					</div>
-
-				</footer>
-
-		
-
+		//= include ../includes/footer.html
 
 	</div>
     <!-- end container -->
 
 <!-- local scripts -->
-	<script src="/assets/javascript/global.js"></script>
 
-</body>
-</html>
-
-
+//= include ../includes/tail.html

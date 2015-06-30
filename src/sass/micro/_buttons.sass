@@ -8,7 +8,7 @@
 		background-color: $cB-dark
 		color: #fff
 		border: none
-		
+
 // action button: prominent buttons
 .btn-action,
 .btn-action:visited
@@ -21,14 +21,25 @@
 	font-weight: bold
 	line-height: 1em
 	@include btn-hover
-		
-// alt button		
+
+// alt button
 .btn-alt,
 .btn-alt:visited
 	@extend .btn-action
 	background: $cA
 	&:hover
 		background-color: $cA-dark
+
+.btn-outline,
+.btn-outline:visited
+	@extend .btn-action
+	background: #fff
+	color: $cA
+	border: 1px solid $cA
+	&:hover
+		border: 1px solid $cA
+		background-color: $cA
+		color: #fff
 
 .btn-light,
 .btn-light:visited
@@ -61,8 +72,11 @@
 		background-color: $cN-xlight
 		color: $cT-light
 
+// make a button smaller
+.btn-smaller
+	padding: 0.125em 0.45em 0em 0.45em
 
-// make a button sit beside other content		
+// make a button sit beside other content
 .btn-inline
 	display: inline-block
 
@@ -76,9 +90,3 @@
 		overflow: hidden
 		position: absolute
 		left: -9000
-	
-	
-	
-	
-
-

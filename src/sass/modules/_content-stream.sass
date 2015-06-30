@@ -6,16 +6,33 @@
 
 // individual story
 // structure is related to .sc-story
+
 .sv-story
-	h4
+	border: 1px solid $cN-xlight
+	border-top: 5px solid $cN-xlight
+	margin-bottom: 2em
+	&__hd
+		margin-top: -5px
+	&__bd
+		padding: 1.5em 1em 1em 1em
+	&__ft
+		padding: 0 1em 1em 1em
+	h2
 		margin: 0 0 0 0
-		font-size: 1.400em
-        line-height: 3em !important
-		text-align: left
 	.dateline
-		display: inline-block
-		margin: 0 0 0 0.5em
+		i
+			font-style: italic
+	.byline
+		margin: 0 0 0 0
 	.kicker
-		margin: 1.5em 0.5em 0 0
-		position: relative
-		top: -0.125em
+		margin: 0 0.5em 0 0
+		font-size: 0.85em
+	.more
+		text-align: right
+		i
+			font-style: italic
+
+// bug in gulp-sass means this has to be separate
+.sv-story
+	h2:before
+		display: none

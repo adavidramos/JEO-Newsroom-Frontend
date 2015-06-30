@@ -716,6 +716,13 @@ code {
   .footer-contact:last-child {
     margin-right: 0; }
 
+/* map containers */
+.map {
+  background-color: #ddd;
+  background-image: url('/static/images/samples/map2.jpg');
+  background-position: 50% center; }
+
+/* content container model (sc) */
 .sc-container {
   float: left;
   display: block;
@@ -1018,6 +1025,19 @@ code {
       .size-md.format-3col.format-md-bg .sc-story:last-child {
         margin-right: 0; } }
 
+.sv-story h4 {
+  margin: 0 0 0 0;
+  font-size: 1.4em;
+  font-size-line-height: 3em !important;
+  text-align: left; }
+.sv-story .dateline {
+  display: inline-block;
+  margin: 0 0 0 0.5em; }
+.sv-story .kicker {
+  margin: 1.5em 0.5em 0 0;
+  position: relative;
+  top: -0.125em; }
+
 .featured {
   border-top: 1px solid #e2e1dd;
   border-bottom: 1px solid #e2e1dd;
@@ -1202,6 +1222,40 @@ img {
       width: 100%; }
       #stories-right:last-child {
         margin-right: 0; } }
+
+/* region/topic (section) home pages */
+.map-fill {
+  width: 100%;
+  height: 380px; }
+
+.map-vertical {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  height: 700px; }
+  .map-vertical:last-child {
+    margin-right: 0; }
+
+.section-list {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 57.44681%;
+  margin-left: 8.51064%;
+  margin-top: 0; }
+  .section-list:last-child {
+    margin-right: 0; }
+
+.section-sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  margin-left: 8.51064%;
+  margin-top: 9em; }
+  .section-sidebar:last-child {
+    margin-right: 0; }
 
 /* ==========================================================================
    Print styles from H5BP

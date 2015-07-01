@@ -27,26 +27,56 @@
         
         <header class="global-header">
             <div class="nameplate" id="nameplate">
-                <div class="nameplate__bd"><a href="index.html"><img src="/static/images/logo-mekong.png" alt=""></a></div>
+                <div class="nameplate__bd"><a href="index.html"><img class="logo" src="/static/images/logo-mekong.png" alt=""></a></div>
             </div>
-            <nav class="global-nav">
-                <ul>
-                    <li><a href="#">Eye Originals</a></li>
-                    <li><a href="#">Opinion &amp; Blogs</a></li>
-                    <li><a href="#">Topics</a></li>
-                    <li><a href="#">Regions</a></li>
-                    <li><a href="#">Maps &amp; Data</a></li>
-                    <li><a href="#">Press Releases</a></li>
-                    <li><a href="#">Search</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Subscribe</a></li>
-                </ul>
-            </nav>
-        </header>
+         </header>
+        
+         <!-- global navbar -->
+         <!-- based on "navigation" at Bourbon Neat -->
+         <header class="navigation" role="banner">
+             <div class="navigation-wrapper">
+                 <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+                 <nav role="navigation">
+                     <ul id="js-navigation-menu" class="navigation-menu show">
+                         <li class="nav-link"><a href="javascript:void(0)">Eye Originals</a></li>
+                         <li class="nav-link"><a href="javascript:void(0)">Opinion &amp; Blogs</a></li>
+                         <li class="nav-link more"><a href="javascript:void(0)">Topics</a>
+                             <ul class="submenu">
+                                 <li><a href="javascript:void(0)">Dams</a></li>
+                                 <li><a href="javascript:void(0)">Extractives</a></li>
+                                 <li><a href="javascript:void(0)">Transportation</a></li>
+                                 <li><a href="javascript:void(0)">Investment</a></li>
+                                 <li><a href="javascript:void(0)">Environment</a></li>
+                                 <li><a href="javascript:void(0)">Policy</a></li>
+                                 <li><a href="javascript:void(0)">Citizens</a></li>
+                                 <li><a href="javascript:void(0)">Global Context</a></li>
+                             </ul>
+                         </li>
+                         <li class="nav-link more"><a href="javascript:void(0)">Regions</a>
+                             <ul class="submenu">
+                                 <li><a href="javascript:void(0)">Cambodia</a></li>
+                                 <li><a href="javascript:void(0)">China</a></li>
+                                 <li><a href="javascript:void(0)">Laos</a></li>
+                                 <li><a href="javascript:void(0)">Myanmar</a></li>
+                                 <li><a href="javascript:void(0)">Thailand</a></li>
+                                 <li><a href="javascript:void(0)">Vietnam</a></li>
+                                 <li><a href="javascript:void(0)">ASEAN</a></li>
+                                 <li><a href="javascript:void(0)">Global</a></li>
+                             </ul>
+                         </li>
+                         <li class="nav-link"><a href="javascript:void(0)">Maps &amp; Data</a></li>
+                         <li class="nav-link"><a href="javascript:void(0)">Press Releases</a></li>
+                         <li class="nav-link"><a href="javascript:void(0)">About</a></li>
+                         <li class="nav-link"><a href="javascript:void(0)">Subscribe</a></li>
+                         <li class="nav-link"><a href="javascript:void(0)">Search</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </header>
         
 
 
-		<div class="main">
+		<div class="main front-main">
 
 		<!-- anchor used by jump-to nav, needed for accessibility -->
 		<a name="content"></a>
@@ -815,6 +845,26 @@
 
 <!-- local scripts -->
 	<script src="/assets/javascript/global.js"></script>
+
+	<script>
+	/*
+		global navbar
+		based on "navigation" from Bourbon Refills
+	*/
+	$(document).ready(function() {
+	  var menuToggle = $('#js-mobile-menu').unbind();
+	  $('#js-navigation-menu').removeClass("show");
+
+	  menuToggle.on('click', function(e) {
+	    e.preventDefault();
+	    $('#js-navigation-menu').slideToggle(function(){
+	      if($('#js-navigation-menu').is(':hidden')) {
+	        $('#js-navigation-menu').removeAttr('style');
+	      }
+	    });
+	  });
+	});
+	</script>
 
 </body>
 </html>

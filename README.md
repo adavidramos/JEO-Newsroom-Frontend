@@ -19,7 +19,7 @@ Compiled CSS and JavaScript files are at `htdocs/static/`.
 
 ## Frontend development tooling
 
-This project uses Gulp for frontend development automation. Build scripts are based on [gulp-starter](https://github.com/greypants/gulp-starter).
+This project uses Gulp for frontend development automation. Build scripts are based on [gulp-starter](https://github.com/greypants/gulp-starter). 
 
 Theme styles are written in SASS, compiled to CSS, and minified for production. Similarly, JavaScript files are concatenated and minified.
 

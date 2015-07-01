@@ -2,13 +2,17 @@
 .global-header
 	@include outer-container()
 	padding-top: 1em
-	padding-bottom: 1em
+	padding-bottom: 0em
 
 .nameplate
 	+span-columns(12)
 	&__bd
-		margin: 0 auto 0.35em auto
+		margin: 0 auto 0 0
 		max-width: 509px
+		width: 440px
 		a,
 		a:hover
 			+noborder
+	.logo
+		position: relative
+		left: -20px

@@ -317,7 +317,7 @@ table {
 td, th {
   padding: 0; }
 
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | //h5bp.com/ */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -346,7 +346,7 @@ textarea {
   resize: vertical; }
 
 /* Neat 1.7.0
- * http://neat.bourbon.io
+ * //neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
  * MIT License */
 html {

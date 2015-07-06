@@ -6,7 +6,7 @@ header.navigation {
   $base-border-radius: 0 !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
+  $large-screen: em(940) !default;
   $navigation-padding: 1em;
   $navigation-background: lighten($cA,58%);
   $navigation-background: #fff;
@@ -65,6 +65,8 @@ header.navigation {
     margin: 0;
     padding-right: 1em;
     text-transform: uppercase;
+    font-family: $font-family-contrast;
+    border: none;
 
     @include media ($horizontal-bar-mode) {
       display: none;
@@ -123,6 +125,7 @@ header.navigation {
     text-align: right;
     width: 100%;
     z-index: 9999;
+    border: 1px solid $cN-xlight;
 
     @include media ($horizontal-bar-mode) {
       background: transparent;
@@ -130,6 +133,7 @@ header.navigation {
       line-height: $navigation-height;
       text-decoration: none;
       width: auto;
+      border: none;
     }
 
     a {

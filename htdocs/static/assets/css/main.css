@@ -639,7 +639,8 @@ code {
   .nameplate__bd {
     margin: 0 auto 0 0;
     max-width: 509px;
-    width: 440px; }
+    width: 440px;
+    max-width: 100%; }
     .nameplate__bd a, .nameplate__bd a:hover {
       background: none;
       border: none;
@@ -647,6 +648,9 @@ code {
   .nameplate .logo {
     position: relative;
     left: -20px; }
+    @media only screen and (max-width: 600px) {
+      .nameplate .logo {
+        left: 0; } }
 
 /* see also _global-navbar.scss */
 .footer-nav ul {

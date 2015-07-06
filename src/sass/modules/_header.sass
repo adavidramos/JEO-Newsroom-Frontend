@@ -10,9 +10,12 @@
 		margin: 0 auto 0 0
 		max-width: 509px
 		width: 440px
+		max-width: 100%
 		a,
 		a:hover
 			+noborder
 	.logo
 		position: relative
 		left: -20px
+		+respond-to($mid-screen)
+			left: 0

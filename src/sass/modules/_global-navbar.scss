@@ -169,7 +169,8 @@ header.navigation {
     }
 
     > ul > li:first-child a  {
-      padding-top: 1em;
+      /* padding-top: 1em; */
+      border-top: 1px solid $cN-xlight;
     }
 
     a {
@@ -257,7 +258,7 @@ header.navigation {
         &:last-child > a {
           border-bottom-left-radius: $base-border-radius;
           border-bottom-right-radius: $base-border-radius;
-          padding-bottom: 0.7em;
+          /* padding-bottom: 0.7em; */
         }
       }
 

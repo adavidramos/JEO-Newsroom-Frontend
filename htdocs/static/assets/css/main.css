@@ -1348,12 +1348,14 @@ img {
 .story__hd {
   margin: 3em 0 0 0; }
 
-.story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
-  max-width: 680px;
-  margin-left: 10%; }
-.story__bd aside p {
-  margin-left: 0;
-  margin-right: 0; }
+.story__bd {
+  padding: 0 0 3em 0; }
+  .story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
+    max-width: 680px;
+    margin-left: 10%; }
+  .story__bd aside p {
+    margin-left: 0;
+    margin-right: 0; }
 
 .story__big-image {
   margin: 2em 0 2em 0; }
@@ -1365,6 +1367,11 @@ img {
     padding-top: 0.25em;
     border-top: 2px solid #9f9c8e; }
   .story__meta .dateline {
+    margin: 0 40% 0 10%;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-top: 2px solid #e2e1dd; }
+  .story__meta .source {
     margin: 0 40% 0 10%;
     padding-top: 0.25em;
     border-top: 2px solid #e2e1dd; }

@@ -942,10 +942,29 @@ header.navigation {
     margin-right: 0; }
 
 /* map containers */
-.map {
+.map-fill {
+  width: 100%;
+  height: 380px; }
+
+.map-vertical {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  height: 700px;
+  margin-top: 3em; }
+  .map-vertical:last-child {
+    margin-right: 0; }
+
+.map-example {
   background-color: #ddd;
   background-image: url('/static/images/samples/map2.jpg');
   background-position: 50% center; }
+
+.map-example-tall {
+  background-color: #ddd;
+  background-image: url('/static/images/samples/map2.jpg');
+  background-position: 100px center; }
 
 /* content container model (sc) */
 .sc-container {
@@ -1347,6 +1366,8 @@ img {
 
 .story__hd {
   margin: 3em 0 0 0; }
+  .story__hd h1 {
+    font-size: 2.5em; }
 
 .story__bd {
   padding: 0 0 3em 0; }
@@ -1476,20 +1497,9 @@ img {
 .section-header .subhead {
   color: #777777;
   margin-top: -1em; }
-
-.map-fill {
-  width: 100%;
-  height: 380px; }
-
-.map-vertical {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 48.93617%;
-  height: 700px;
-  margin-top: 3em; }
-  .map-vertical:last-child {
-    margin-right: 0; }
+.section-header h1 {
+  font-size: 3.25em;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 .section-list {
   float: left;
@@ -1519,6 +1529,210 @@ img {
   margin-top: 9em; }
   .section-sidebar:last-child {
     margin-right: 0; }
+
+.sequence-image {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto; }
+  .sequence-image:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.sequence-image ul {
+  margin: 0;
+  padding: 0; }
+
+.sequence-image li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.sequence__hd {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  padding-top: 2.75em; }
+  .sequence__hd:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .sequence__hd {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%; }
+      .sequence__hd:last-child {
+        margin-right: 0; } }
+
+.sequence__hd h1 {
+  font-size: 2em; }
+
+.sequence__hd .kicker {
+  margin: 0 0 0 0; }
+
+.sequence__meta {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+  padding-top: 3em;
+  margin-left: 8.51064%; }
+  .sequence__meta:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .sequence__meta {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%;
+      margin-left: 0%; }
+      .sequence__meta:last-child {
+        margin-right: 0; } }
+  .sequence__meta .byline {
+    margin: 0;
+    padding-top: 0.1em;
+    border-top: 2px solid #9f9c8e; }
+  .sequence__meta .dateline {
+    margin: 0;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-top: 2px solid #e2e1dd; }
+  .sequence__meta .source {
+    margin: 0;
+    padding-top: 0.1em;
+    border-top: 2px solid #e2e1dd; }
+
+.sequence__bd {
+  padding-top: 3em;
+  padding-top-padding-bottom: 3em;
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 65.95745%; }
+  .sequence__bd:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .sequence__bd {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%; }
+      .sequence__bd:last-child {
+        margin-right: 0; } }
+
+.map-ct__hd {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  padding-top: 2.75em; }
+  .map-ct__hd:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .map-ct__hd {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%; }
+      .map-ct__hd:last-child {
+        margin-right: 0; } }
+
+.map-ct__hd h1 {
+  font-size: 2em; }
+
+.map-ct__hd .kicker {
+  margin: 0 0 0 0; }
+
+.map-ct__meta {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+  padding-top: 3em;
+  margin-left: 8.51064%; }
+  .map-ct__meta:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .map-ct__meta {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%;
+      margin-left: 0%; }
+      .map-ct__meta:last-child {
+        margin-right: 0; } }
+  .map-ct__meta .byline {
+    margin: 0;
+    padding-top: 0.1em;
+    border-top: 2px solid #9f9c8e; }
+  .map-ct__meta .dateline {
+    margin: 0;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-top: 2px solid #e2e1dd; }
+  .map-ct__meta .source {
+    margin: 0;
+    padding-top: 0.1em;
+    border-top: 2px solid #e2e1dd; }
+
+.map-ct__bd {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 65.95745%;
+  padding-top: 3em; }
+  .map-ct__bd:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .map-ct__bd {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%; }
+      .map-ct__bd:last-child {
+        margin-right: 0; } }
+
+.collection-header {
+  margin: 3em 0 0 0; }
+
+.collection-header h1 {
+  font-size: 2.5em; }
+
+.collection-header .subhead {
+  color: #777777;
+  margin-top: -1em; }
+
+.collection-list {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 57.44681%;
+  margin-left: 8.51064%;
+  margin-top: 0; }
+  .collection-list:last-child {
+    margin-right: 0; }
+
+.collection-sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  margin-left: 8.51064%;
+  padding-top: 3em; }
+  .collection-sidebar:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 600px) {
+    .collection-sidebar {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 100%;
+      margin-left: 0%; }
+      .collection-sidebar:last-child {
+        margin-right: 0; } }
+  .collection-sidebar h3 {
+    text-align: left; }
 
 /* ==========================================================================
    Print styles from H5BP

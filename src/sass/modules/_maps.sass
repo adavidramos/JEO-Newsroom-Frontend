@@ -1,9 +1,27 @@
 /* map containers */
 
+// full-width map option
+.map-fill
+	width: 100%
+	height: 380px
+
+// vertical map option
+.map-vertical
+	+span-columns(6)
+	height: 700px
+	margin-top: 3em
 
 
-.map
+// for demo
+.map-example
     background-color: #ddd
     background-image: url('/static/images/samples/map2.jpg')
     background-position: 50% center
+    // background-repeat: no-repeat
+
+// for demo
+.map-example-tall
+    background-color: #ddd
+    background-image: url('/static/images/samples/map2.jpg')
+    background-position: 100px center
     // background-repeat: no-repeat

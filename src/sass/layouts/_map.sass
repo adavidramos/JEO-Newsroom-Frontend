@@ -1,0 +1,39 @@
+
+.map-ct__hd
+	+span-columns(6)
+	+respond-to($mid-screen)
+		+span-columns(12)
+	padding-top: 2.75em
+
+.map-ct__hd h1
+    font-size: 2em
+.map-ct__hd .kicker
+    margin: 0 0 0 0
+
+.map-ct__meta
+	+span-columns(4)
+    margin-right: 0
+	padding-top: 3em
+	+shift(1)
+	+respond-to($mid-screen)
+		+span-columns(12)
+		+shift(0)
+	.byline
+		margin: 0
+		padding-top: 0.1em
+		border-top: 2px solid $cN-mid
+	.dateline
+		margin: 0
+		padding-top: 0.1em
+		padding-bottom: 0.1em
+		border-top: 2px solid $cN-light
+	.source
+		margin: 0
+		padding-top: 0.1em
+		border-top: 2px solid $cN-light
+
+.map-ct__bd
+	+span-columns(8)
+	padding-top: 3em
+	+respond-to($mid-screen)
+		+span-columns(12)

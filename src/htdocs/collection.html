@@ -1,98 +1,34 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="/static/assets/css/main.css" />
-	<script src="/static/assets/javascript/vendor/modernizr-2.8.3.min.js"></script>
-
-
+//= include ../includes/top.html
 
     <title></title>
     <meta name="description" content="">
 </head>
 <body>
 
+    <!-- container for head -->
 	<div class="container">
-        <!-- text alternative for nameplate; skip-to-content link for accessibility -->
-        <div id="skip">
-            <h1>The Mekong Eye</h1>
-            <p><a href="#content">skip to content</a></p>
-        </div>
-        
-        <header class="global-header">
-            <div class="nameplate" id="nameplate">
-                <div class="nameplate__bd"><a href="index.html"><img class="logo" src="/static/images/logo-mekong.png" alt=""></a></div>
-            </div>
-         </header>
-        
-         <!-- global navbar -->
-         <!-- based on "navigation" at Bourbon Neat -->
-         <header class="navigation" role="banner">
-             <div class="navigation-wrapper">
-                 <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-                 <nav role="navigation">
-                     <ul id="js-navigation-menu" class="navigation-menu show">
-                         <li class="nav-link"><a href="javascript:void(0)">Eye Originals</a></li>
-                         <li class="nav-link"><a href="javascript:void(0)">Opinion &amp; Blogs</a></li>
-                         <li class="nav-link more"><a href="javascript:void(0)">Topics</a>
-                             <ul class="submenu">
-                                 <li><a href="javascript:void(0)">Dams</a></li>
-                                 <li><a href="javascript:void(0)">Extractives</a></li>
-                                 <li><a href="javascript:void(0)">Transportation</a></li>
-                                 <li><a href="javascript:void(0)">Investment</a></li>
-                                 <li><a href="javascript:void(0)">Environment</a></li>
-                                 <li><a href="javascript:void(0)">Policy</a></li>
-                                 <li><a href="javascript:void(0)">Citizens</a></li>
-                                 <li><a href="javascript:void(0)">Global Context</a></li>
-                             </ul>
-                         </li>
-                         <li class="nav-link more"><a href="javascript:void(0)">Regions</a>
-                             <ul class="submenu">
-                                 <li><a href="javascript:void(0)">Cambodia</a></li>
-                                 <li><a href="javascript:void(0)">China</a></li>
-                                 <li><a href="javascript:void(0)">Laos</a></li>
-                                 <li><a href="javascript:void(0)">Myanmar</a></li>
-                                 <li><a href="javascript:void(0)">Thailand</a></li>
-                                 <li><a href="javascript:void(0)">Vietnam</a></li>
-                                 <li><a href="javascript:void(0)">ASEAN</a></li>
-                                 <li><a href="javascript:void(0)">Global</a></li>
-                             </ul>
-                         </li>
-                         <li class="nav-link"><a href="javascript:void(0)">Maps &amp; Data</a></li>
-                         <li class="nav-link"><a href="javascript:void(0)">Press Releases</a></li>
-                         <li class="nav-link"><a href="javascript:void(0)">About</a></li>
-                         <li class="nav-link"><a href="javascript:void(0)">Subscribe</a></li>
-                         <li class="nav-link"><a href="javascript:void(0)">Search</a></li>
-                     </ul>
-                 </nav>
-             </div>
-         </header>
-        
 
+        //= include ../includes/header.html
+
+    </div>
+    <!-- end container for head -->
+
+    <!-- main content container -->
+    <div class="container">
 
 		<div class="main">
 
     		<!-- anchor used by jump-to nav, needed for accessibility -->
     		<a name="content"></a>
 
+            <div class="collection-list">
 
-            <!-- example map -->
-            <div class="map-example map-vertical">
-                &nbsp;
-            </div>
-
-            <div class="section-list-vertical">
-
-                <header class="section-header">
-                    <h1>Environment</h1>
-                    <h2 class="subhead">This text expands on the section name</h2>
-                </header>
+                <!-- headlines -->
+				<header class="collection-header">
+					<h3 class="kicker">Kicker</h3>
+					<h1>Headline One of a Typical Length for a Headline</h1>
+					<h2 class="subhead">Subhead Here Below the Main Hed</h2>
+				</header>
 
                 <!-- begin slice -->
                 <div class="sv-slice">
@@ -164,70 +100,29 @@
                 </div>
 
             </div>
-            <!-- end section list -->
+            <!-- end list -->
 
+            <!-- sidebar -->
+            <div class="collection-sidebar">
+
+                <article>
+
+                    <h3>Explanatory Text for Collection</h3>
+                    <p>Dayton for under $900 a day engagement Politics Socks page gamification Facebook Tumblr, the medium is the massage collaboration content farm morgue Ushahidi Flipboard, Gutenberg parenthesis afternoon paper get me rewrite Foursquare free as in beer future. advertising information wants to be free synergize anonymity TweetDeck awesome linking Dan Fleckner Quora, every dog loves food the medium is the message dead trees Marshall McLuhan information wants to be free syndicated.</p>
+
+                </article>
+
+            </div>
+            <!-- end sidebar -->
 
 		</div>
         <!-- end main -->
 
-		
-
-				<footer class="global-footer">
-
-					<nav class="footer-nav">
-
-						<ul>
-
-							<li><a href="/">home</a></li>
-
-							<li><a href="#nameplate">top of page</a></li>
-
-						</ul>
-
-					</nav>
-
-					<div class="footer-contact">
-
-						<p>
-
-						</p>
-
-					</div>
-
-				</footer>
-
-		
-
+		//= include ../includes/footer.html
 
 	</div>
     <!-- end container -->
 
 <!-- local scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-	<script src="/assets/javascript/global.js"></script>
-
-	<script>
-	/*
-		global navbar
-		based on "navigation" from Bourbon Refills
-	*/
-	$(document).ready(function() {
-	  var menuToggle = $('#js-mobile-menu').unbind();
-	  $('#js-navigation-menu').removeClass("show");
-
-	  menuToggle.on('click', function(e) {
-	    e.preventDefault();
-	    $('#js-navigation-menu').slideToggle(function(){
-	      if($('#js-navigation-menu').is(':hidden')) {
-	        $('#js-navigation-menu').removeAttr('style');
-	      }
-	    });
-	  });
-	});
-	</script>
-
-</body>
-</html>
-
-
+//= include ../includes/tail.html

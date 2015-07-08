@@ -1,0 +1,26 @@
+
+.collection-header
+	margin: 3em 0 0 0
+
+.collection-header h1
+    font-size: 2.5em
+
+.collection-header .subhead
+	color: $cT-mid
+	margin-top: -1em
+
+// story column
+.collection-list
+	+span-columns(7)
+	+shift(1)
+	margin-top: 0
+
+.collection-sidebar
+	+span-columns(3)
+	+shift(1)
+	padding-top: 3em
+	+respond-to($mid-screen)
+		+span-columns(12)
+		+shift(0)
+	h3
+		text-align: left

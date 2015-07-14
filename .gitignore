@@ -36,3 +36,25 @@ htdocs/wp-content/themes/jeo-dev
 # frontend build tools
 node_modules
 
+# WordPress
+htdocs/index.php
+htdocs/wp-activate.php
+htdocs/wp-admin/
+htdocs/wp-blog-header.php
+htdocs/wp-comments-post.php
+htdocs/wp-config-sample.php
+htdocs/wp-content/index.php
+htdocs/wp-content/license.txt
+htdocs/wp-content/plugins/
+htdocs/wp-content/themes/index.php
+htdocs/wp-content/themes/twentyfifteen/
+htdocs/wp-includes/
+htdocs/wp-cron.php
+htdocs/wp-links-opml.php
+htdocs/wp-load.php
+htdocs/wp-login.php
+htdocs/wp-mail.php
+htdocs/wp-settings.php
+htdocs/wp-signup.php
+htdocs/wp-trackback.php
+htdocs/xmlrpc.php

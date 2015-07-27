@@ -1056,7 +1056,7 @@ header.navigation {
   margin-right: 2.12766%;
   width: 23.40426%;
   margin-bottom: 0.5em;
-  height: 4em;
+  height: 5em;
   overflow: clip; }
   .size-md .sc-story:last-child {
     margin-right: 0; }
@@ -1091,7 +1091,7 @@ header.navigation {
     float: left;
     width: 50%;
     margin-right: 0;
-    height: 9em;
+    height: 11em;
     border-bottom: 1px solid #e2e1dd;
     border-right: 1px solid #e2e1dd; }
     .size-lg .sc-story:nth-child(2n) {

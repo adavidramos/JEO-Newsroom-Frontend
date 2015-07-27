@@ -1108,8 +1108,10 @@ header.navigation {
     padding: 1em 0.5em 0 1em; }
   .size-lg h4 {
     display: inline-block;
-    margin: 0em 0 0 0;
+    margin: 0.5em 0 0 0;
     font-size: 1.4em; }
+  .size-lg .kicker + h4 {
+    margin-top: 0; }
   .size-lg .dateline {
     display: inline-block;
     margin: 0 0 0 0.5em; }
@@ -1238,7 +1240,8 @@ header.navigation {
 .format-color-e .sc-story {
   background: #d5e59d;
   border-color: #d5e59d;
-  color: #556827; }
+  color: #556827;
+  border-color: #fff; }
 .format-color-e .kicker {
   color: #333333; }
 

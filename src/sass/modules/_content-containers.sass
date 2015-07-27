@@ -29,14 +29,25 @@
 		content: none
 		border: none
 
+	// sidebar alternative format
 	h2.alt
-		font-size: 1em
+		font-size: 1.125em
 		font-family: $font-family-main
+		border-bottom: none
 		i
 			color: $cT-mid
-			font-size: 1em
+			font-size: 0.85em
 		b
 			font-size: 1em
+
+	// support for sidebar alternative format
+	.alt-subhed
+		margin-top: -1.125em
+		font-size: 0.85em
+		line-height: 1.25em
+		font-family: $font-family-contrast
+		color: $cT-mid
+		max-width: 75%
 
 .sc-slice
 	+span-columns(12)
@@ -310,3 +321,15 @@
 		border-right: 2px solid #fff // make all borders white for simplicity
 		+respond-to($mid-screen)
 			+span-columns(12)
+
+// head for group of slices on sidebar
+h2.alt-group
+	margin-top: 2em
+	margin-bottom: 0.25em
+	padding-bottom: 0.25em
+	color: $cT-lowmid
+	border-bottom: 0.4em solid $cN-light
+
+h2.alt-group::before
+	content: none
+	border: none

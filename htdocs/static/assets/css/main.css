@@ -553,7 +553,7 @@ code {
 
 .btn-action, .btn-alt, .btn-alt:visited, .btn-outline, .btn-outline:visited, .btn-light, .btn-light:visited, .btn-subdued, .btn-subdued:visited, .btn-subdued-light, .btn-subdued-light:visited, .btn-disabled, .btn-disabled:visited, .btn-action:visited, .btn-alt:visited, .btn-outline:visited, .btn-light:visited, .btn-subdued:visited, .btn-subdued-light:visited, .btn-disabled:visited {
   padding: 0.5em 1em;
-  background: #214483;
+  background: #2884b5;
   border: none;
   border-radius: 3px;
   color: #fff;
@@ -722,7 +722,7 @@ header.navigation {
       header.navigation .navigation-menu-button {
         display: none; } }
     header.navigation .navigation-menu-button:focus, header.navigation .navigation-menu-button:hover {
-      color: #333333; }
+      color: #556827; }
   header.navigation nav {
     float: none;
     min-height: 50px;
@@ -776,7 +776,7 @@ header.navigation {
         header.navigation ul li.nav-link a {
           padding-right: 1em; } }
       header.navigation ul li.nav-link a:focus, header.navigation ul li.nav-link a:hover {
-        color: #333333;
+        color: #556827;
         border: none; }
   header.navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -1227,13 +1227,13 @@ header.navigation {
         margin-right: 0; } }
 
 .format-color-a .sc-story {
-  background: #bae0e6;
-  border-color: #94cfd9; }
+  background: #e6f0c5;
+  border-color: #d5e59d; }
 .format-color-a .kicker {
   color: #333333; }
 
 .format-color-e .sc-story {
-  background: #dcf0e7;
+  background: #f8faee;
   border-color: #fff; }
 .format-color-e .kicker {
   color: #333333; }
@@ -1432,7 +1432,7 @@ img {
   margin-top: 0.25em;
   padding: 0.5em;
   height: 17em;
-  background-color: #6087c6; }
+  background-color: #69c1eb; }
   #subscribe:last-child {
     margin-right: 0; }
   @media only screen and (max-width: 600px) {
@@ -1446,18 +1446,18 @@ img {
   #subscribe h3 {
     margin-top: 0;
     text-align: left;
-    color: #214483; }
+    color: #2884b5; }
 
 #subscribe-right {
   margin-top: 0.25em;
   padding: 0.5em;
   height: 17em;
-  background-color: #6087c6;
+  background-color: #c4da75;
   clear: both; }
   #subscribe-right h3 {
     margin-top: 0;
     text-align: left;
-    color: #214483; }
+    color: #556827; }
 
 #stories-left {
   float: left;

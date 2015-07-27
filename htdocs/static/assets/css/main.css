@@ -1001,6 +1001,8 @@ header.navigation {
       .sc-container h2 a:hover {
         color: #327e9a;
         transition: all 0.5s; }
+    .sc-container h2 a:hover {
+      color: #e55228; }
   .sc-container h2:before {
     content: none;
     border: none; }
@@ -1045,10 +1047,10 @@ header.navigation {
   .sc-story a h4, .sc-story a p, .sc-story a b, .sc-story a i, .sc-story a span {
     transition: all 0.25s; }
 .sc-story a:hover {
-  color: inherit; }
+  color: #e55228; }
   .sc-story a:hover h4, .sc-story a:hover p, .sc-story a:hover b, .sc-story a:hover i, .sc-story a:hover span {
     transition: all 0.25s;
-    color: #327e9a; }
+    color: #e55228; }
 
 .size-md .sc-story {
   float: left;

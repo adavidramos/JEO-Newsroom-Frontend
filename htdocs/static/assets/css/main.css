@@ -1227,17 +1227,30 @@ header.navigation {
       .format-md-bg .sc-story:last-child {
         margin-right: 0; } }
 
-.format-color-a .sc-story {
+.format-color-e .sc-story {
   background: #d5e59d;
   border-color: #d5e59d;
   color: #556827; }
+.format-color-e .kicker {
+  color: #333333; }
+
+.format-color-ee .sc-story {
+  background: #eff5da;
+  border-color: #d5e59d;
+  color: #556827; }
+.format-color-ee .kicker {
+  color: #333333; }
+
+.format-color-a .sc-story {
+  background: #94cfd9;
+  border-color: #fff; }
 .format-color-a .kicker {
   color: #333333; }
 
-.format-color-e .sc-story {
-  background: #dff1f4;
+.format-color-aa .sc-story {
+  background: #cde8ed;
   border-color: #fff; }
-.format-color-e .kicker {
+.format-color-aa .kicker {
   color: #333333; }
 
 .size-md.format-3col .sc-story {

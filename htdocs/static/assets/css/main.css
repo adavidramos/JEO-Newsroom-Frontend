@@ -618,6 +618,19 @@ code {
     position: absolute;
     left: -9000; }
 
+.email-signup input {
+  display: block;
+  clear: both;
+  height: 1.5em;
+  font-size: 0.85em;
+  margin: 0 0 0.5em 0;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.email-signup input[type=text], .email-signup input[type=email] {
+  width: 100%; }
+.email-signup input[name=subscribe] {
+  border: 1px solid #9f9c8e;
+  background: #e9eee6; }
+
 .global-header {
   max-width: 1080px;
   margin-left: auto;
@@ -653,30 +666,7 @@ code {
         left: 0; } }
 
 /* see also _global-navbar.scss */
-.footer-nav ul {
-  padding: 0; }
-  .footer-nav ul li {
-    display: inline-block;
-    vertical-align: baseline;
-    zoom: 1;
-    *display: inline;
-    *vertical-align: auto; }
-  .footer-nav ul li::after {
-    content: "/";
-    margin: 0 0.25em 0 0.5em;
-    color: #aaaaaa; }
-  .footer-nav ul li:last-child::after {
-    content: ""; }
-.footer-nav a {
-  background: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
-  color: inherit;
-  transition: all 0.5s; }
-  .footer-nav a:hover {
-    color: #327e9a;
-    border-bottom: 1px solid #327e9a;
-    transition: all 0.5s; }
-
+/* see also footer.sass */
 /* based on "NAVIGATION" from Bourbon Refills */
 header.navigation {
   background-color: #fff;
@@ -916,21 +906,90 @@ header.navigation {
           display: block; } }
 
 .global-footer {
+  max-width: 100%;
+  margin-top: 2em;
+  padding: 1em 0 1em 0;
+  background: #e9eee6; }
+
+.global-footer__bd {
   max-width: 1080px;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em; }
-  .global-footer:after {
+  margin-right: auto; }
+  .global-footer__bd:after {
     content: "";
     display: table;
     clear: both; }
 
-.footer-nav {
+.global-footer ul {
+  padding: 0; }
+.global-footer li {
+  margin: 0 0 0.25em 0;
+  font-size: 0.85em;
+  line-height: 1.125em;
+  list-style-type: none; }
+.global-footer a {
+  background: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color: inherit;
+  transition: all 0.5s;
+  color: #555; }
+  .global-footer a:hover {
+    color: #327e9a;
+    border-bottom: 1px solid #327e9a;
+    transition: all 0.5s; }
+.global-footer h6 {
+  margin: 0 0 0.25em 0;
+  font-size: 0.75em;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555; }
+
+.footer-directional {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 48.93617%; }
-  .footer-nav:last-child {
+  width: 10.6383%;
+  padding-top: 0.125em; }
+  .footer-directional:last-child {
+    margin-right: 0; }
+
+.footer-utility {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 10.6383%;
+  padding-top: 0.125em; }
+  .footer-utility:last-child {
+    margin-right: 0; }
+
+.footer-partners {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  border-left: 1px solid #ceccc5;
+  border-right: 1px solid #ceccc5;
+  padding-left: 0.75em;
+  padding-right: 0.5em;
+  height: 7em; }
+  .footer-partners:last-child {
+    margin-right: 0; }
+
+.footer-social {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%; }
+  .footer-social:last-child {
+    margin-right: 0; }
+
+.footer-subscribe {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+  margin-right: 0; }
+  .footer-subscribe:last-child {
     margin-right: 0; }
 
 .footer-contact {
@@ -1816,7 +1875,7 @@ img {
   display: none !important;
   visibility: hidden; }
 
-.visuallyhidden {
+.visuallyhidden, .email-signup .hidden-label {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -1826,7 +1885,7 @@ img {
   position: absolute;
   width: 1px; }
 
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .email-signup .focusable.hidden-label:active, .visuallyhidden.focusable:focus, .email-signup .focusable.hidden-label:focus {
   clip: auto;
   height: auto;
   margin: 0;

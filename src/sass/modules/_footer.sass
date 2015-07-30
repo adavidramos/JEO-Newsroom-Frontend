@@ -1,11 +1,54 @@
 
 .global-footer
-	@include outer-container()
+	max-width: 100%
 	margin-top: 2em
+	padding: 1em 0 1em 0
+	background: $cN-xlight
 
-.footer-nav
-	+span-columns(6)
-	// see also nav
-	
+.global-footer__bd
+	@include outer-container()
+
+.global-footer
+	ul
+		padding: 0
+	li
+		margin: 0 0 0.25em 0
+		font-size: 0.85em
+		line-height: 1.125em
+		list-style-type: none
+	a
+		+hover-link
+		color: $cT-lowmid
+	h6
+		margin: 0 0 0.25em 0
+		font-size: 0.75em
+		font-weight: bold
+		font-family: $font-family-contrast
+		color: $cT-lowmid
+
+.footer-directional
+	+span-columns(1.5)
+	padding-top: 0.125em
+
+.footer-utility
+	+span-columns(1.5)
+	padding-top: 0.125em
+
+.footer-partners
+	+span-columns(3)
+	border-left: 1px solid  lighten($cN-mid, 20%)
+	border-right: 1px solid lighten($cN-mid, 20%)
+	padding-left: 0.75em
+	padding-right: 0.5em
+	height: 7em
+
+.footer-social
+	+span-columns(3)
+
+.footer-subscribe
+	+span-columns(3)
+	margin-right: 0
+	// see also _forms.sass
+
 .footer-contact
 	+span-columns(6)

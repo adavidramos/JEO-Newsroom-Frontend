@@ -631,6 +631,14 @@ code {
   border: 1px solid #9f9c8e;
   background: #e9eee6; }
 
+.form-color-e input[type=text], .form-color-e input[type=email] {
+  border: 1px solid #a8c563;
+  background: #d5e59d; }
+.form-color-e input[name=subscribe] {
+  color: #556827;
+  border: 1px solid #738d35;
+  background: #cddf89; }
+
 .global-header {
   max-width: 1080px;
   margin-left: auto;
@@ -667,6 +675,17 @@ code {
 
 /* see also _global-navbar.scss */
 /* see also footer.sass */
+.social-subscribe {
+  margin: 1em 0 1em 0;
+  padding: 1em 1em 1.25em 1em;
+  background: #bae0e6; }
+  .social-subscribe a, .social-subscribe a:hover {
+    border: none; }
+  .social-subscribe h3 {
+    margin-top: 0;
+    text-align: left;
+    line-height: 1.25em; }
+
 /* based on "NAVIGATION" from Bourbon Refills */
 header.navigation {
   background-color: #fff;
@@ -985,9 +1004,7 @@ header.navigation {
   width: 23.40426%; }
   .footer-social:last-child {
     margin-right: 0; }
-  .footer-social a {
-    border: none; }
-  .footer-social a:hover {
+  .footer-social a, .footer-social a:hover {
     border: none; }
 
 .footer-subscribe {
@@ -1581,13 +1598,14 @@ img {
 #subscribe-right {
   margin-top: 0.25em;
   padding: 0.5em;
-  height: 17em;
+  height: 11em;
   background-color: #c4da75;
   clear: both; }
   #subscribe-right h3 {
     margin-top: 0;
     text-align: left;
-    color: #556827; }
+    color: #556827;
+    line-height: 1.25em; }
 
 #stories-left {
   float: left;

@@ -2,7 +2,7 @@
 .global-footer
 	max-width: 100%
 	margin-top: 2em
-	padding: 1em 0 1em 0
+	padding: 1em 0 2em 0
 	background: $cN-xlight
 
 .global-footer__bd
@@ -14,8 +14,11 @@
 	li
 		margin: 0 0 0.25em 0
 		font-size: 0.85em
-		line-height: 1.125em
+		line-height: 1.25em
 		list-style-type: none
+	p
+		font-size: 0.85em
+		line-height: 1.25em
 	a
 		+hover-link
 		color: $cT-lowmid
@@ -24,7 +27,7 @@
 		font-size: 0.75em
 		font-weight: bold
 		font-family: $font-family-contrast
-		color: $cT-lowmid
+		color: $cT-mid
 
 .footer-directional
 	+span-columns(1.5)
@@ -44,11 +47,33 @@
 
 .footer-social
 	+span-columns(3)
+	a
+		border: none
+	a:hover
+		border: none
 
 .footer-subscribe
 	+span-columns(3)
 	margin-right: 0
 	// see also _forms.sass
 
+.footer-sponsors
+	+span-columns(9)
+	margin-top: 1em
+	padding-top: 1em
+	border-top: 1px solid lighten($cN-mid, 20%)
+	h6
+		padding-bottom: 0.75em
+	a
+		display: inline-block
+		border: none
+	a:hover
+		border: none
+
 .footer-contact
-	+span-columns(6)
+	+span-columns(3)
+	margin-top: 1em
+	padding-top: 1em
+	border-top: 1px solid lighten($cN-mid, 20%)
+	h6
+		padding-bottom: 0.75em

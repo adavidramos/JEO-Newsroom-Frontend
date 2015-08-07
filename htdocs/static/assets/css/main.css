@@ -626,7 +626,8 @@ code {
   margin: 0 0 0.5em 0;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 .email-signup input[type=text], .email-signup input[type=email] {
-  width: 100%; }
+  width: 100%;
+  max-width: 240px; }
 .email-signup input[name=subscribe] {
   border: 1px solid #9f9c8e;
   background: #e9eee6; }
@@ -1001,7 +1002,7 @@ header.navigation {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 23.40426%; }
+  width: 14.89362%; }
   .footer-social:last-child {
     margin-right: 0; }
   .footer-social a, .footer-social a:hover {
@@ -1011,7 +1012,7 @@ header.navigation {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 23.40426%;
+  width: 31.91489%;
   margin-right: 0; }
   .footer-subscribe:last-child {
     margin-right: 0; }
@@ -1020,7 +1021,7 @@ header.navigation {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 74.46809%;
+  width: 65.95745%;
   margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid #ceccc5; }
@@ -1030,7 +1031,8 @@ header.navigation {
     padding-bottom: 0.75em; }
   .footer-sponsors a {
     display: inline-block;
-    border: none; }
+    border: none;
+    margin-right: 30px; }
   .footer-sponsors a:hover {
     border: none; }
 
@@ -1038,7 +1040,7 @@ header.navigation {
   float: left;
   display: block;
   margin-right: 2.12766%;
-  width: 23.40426%;
+  width: 31.91489%;
   margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid #ceccc5; }

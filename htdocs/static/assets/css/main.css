@@ -504,7 +504,7 @@ h6 {
 .kicker {
   margin: 0em 0 0.5em 0;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: bold;
   font-weight: 700;
   text-transform: uppercase;
@@ -1514,9 +1514,29 @@ img {
     clear: both; }
 
 .story__hd {
-  margin: 3em 0 0 0; }
+  margin: 3em 30% 0 10%; }
   .story__hd h1 {
     font-size: 2.5em; }
+
+.story__big-image {
+  margin: 2em 0 2em 0; }
+
+.story__meta {
+  margin: 0 50% 2em 10%;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .story__meta .byline {
+    margin: 0;
+    padding: 0.25em 0 0.25em 0.25em;
+    border-top: 1px solid #9f9c8e;
+    border-bottom: 1px solid #e2e1dd;
+    background: #e9eee6; }
+  .story__meta .dateline {
+    margin: 0;
+    padding: 0.25em 0 0.25em 0.25em;
+    border-bottom: 1px solid #e2e1dd; }
+  .story__meta .source {
+    margin: 0;
+    padding: 0.25em 0 0.25em 0.25em; }
 
 .story__bd {
   padding: 0 0 3em 0; }
@@ -1526,25 +1546,6 @@ img {
   .story__bd aside p {
     margin-left: 0;
     margin-right: 0; }
-
-.story__big-image {
-  margin: 2em 0 2em 0; }
-
-.story__meta {
-  margin-bottom: 2em; }
-  .story__meta .byline {
-    margin: 0 40% 0 10%;
-    padding-top: 0.25em;
-    border-top: 2px solid #9f9c8e; }
-  .story__meta .dateline {
-    margin: 0 40% 0 10%;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    border-top: 2px solid #e2e1dd; }
-  .story__meta .source {
-    margin: 0 40% 0 10%;
-    padding-top: 0.25em;
-    border-top: 2px solid #e2e1dd; }
 
 .front-main {
   margin-top: 1em; }

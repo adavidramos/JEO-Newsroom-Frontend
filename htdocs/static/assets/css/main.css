@@ -1515,6 +1515,9 @@ img {
 
 .story__hd {
   margin: 3em 30% 0 10%; }
+  @media only screen and (max-width: 600px) {
+    .story__hd {
+      margin: 3em 1em 0 1em; } }
   .story__hd h1 {
     font-size: 2.5em; }
 
@@ -1524,6 +1527,9 @@ img {
 .story__meta {
   margin: 0 50% 2em 10%;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  @media only screen and (max-width: 600px) {
+    .story__meta {
+      margin: 0 1em 2em 1em; } }
   .story__meta .byline {
     margin: 0;
     padding: 0.25em 0 0.25em 0.25em;
@@ -1543,9 +1549,17 @@ img {
   .story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
     max-width: 680px;
     margin-left: 10%; }
+    @media only screen and (max-width: 600px) {
+      .story__bd p, .story__bd ul, .story__bd ol, .story__bd h2, .story__bd h3, .story__bd h4, .story__bd h5, .story__bd h6 {
+        margin-left: 1em;
+        margin-right: 1em; } }
   .story__bd aside p {
     margin-left: 0;
     margin-right: 0; }
+    @media only screen and (max-width: 600px) {
+      .story__bd aside p {
+        margin-left: 1em;
+        margin-right: 1em; } }
 
 .front-main {
   margin-top: 1em; }

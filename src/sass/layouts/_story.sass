@@ -1,6 +1,8 @@
 
 .story__hd
 	margin: 3em 30% 0 10%
+	+respond-to($mid-screen)
+		margin: 3em 1em 0 1em
 	h1
 	    font-size: 2.5em
 
@@ -10,6 +12,8 @@
 .story__meta
 	margin: 0 50% 2em 10%
 	font-family: $font-family-contrast
+	+respond-to($mid-screen)
+		margin: 0 1em 2em 1em
 	.byline
 		margin: 0
 		padding: 0.25em 0 0.25em 0.25em
@@ -29,7 +33,13 @@
 	p, ul, ol, h2, h3, h4, h5, h6
 		max-width: $textWidth
 		margin-left: 10%
+		+respond-to($mid-screen)
+			margin-left: 1em
+			margin-right: 1em
 	aside
 		p
 			margin-left: 0
 			margin-right: 0
+			+respond-to($mid-screen)
+				margin-left: 1em
+				margin-right: 1em

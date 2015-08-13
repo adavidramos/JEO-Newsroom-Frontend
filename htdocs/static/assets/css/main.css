@@ -1581,6 +1581,12 @@ img {
     display: table;
     clear: both; }
 
+/* related items */
+@media only screen and (max-width: 600px) {
+  .related {
+    padding-left: 1em;
+    padding-right: 1em; } }
+
 .story__hd {
   margin: 3em 30% 0 10%; }
   @media only screen and (max-width: 600px) {

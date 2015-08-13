@@ -3,6 +3,8 @@
 	+span-columns(6)
 	+respond-to($mid-screen)
 		+span-columns(12)
+		padding-left: 1em
+		padding-right: 1em
 	padding-top: 2.75em
 
 .map-ct__hd h1
@@ -14,26 +16,32 @@
 	+span-columns(4)
     margin-right: 0
 	padding-top: 3em
+	font-family: $font-family-contrast
 	+shift(1)
 	+respond-to($mid-screen)
 		+span-columns(12)
+		padding-left: 1em
+		padding-right: 1em
 		+shift(0)
 	.byline
 		margin: 0
-		padding-top: 0.1em
-		border-top: 2px solid $cN-mid
+		padding: 0.25em 0 0.25em 0.25em
+		border-top: 1px solid $cN-mid
+		border-bottom: 1px solid $cN-light
+		background: $cN-xlight
 	.dateline
 		margin: 0
-		padding-top: 0.1em
-		padding-bottom: 0.1em
-		border-top: 2px solid $cN-light
+		padding: 0.25em 0 0.25em 0.25em
+		border-bottom: 1px solid $cN-light
 	.source
 		margin: 0
-		padding-top: 0.1em
-		border-top: 2px solid $cN-light
+		padding: 0.25em 0 0.25em 0.25em
 
 .map-ct__bd
-	+span-columns(8)
+	+span-columns(12)
+	padding-right: 50%
 	padding-top: 3em
 	+respond-to($mid-screen)
 		+span-columns(12)
+		padding-left: 1em
+		padding-right: 1em
